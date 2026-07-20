@@ -11,13 +11,7 @@
     --border:#e3e6eb; --accent:#3457d5; --accent-soft:#eef1fd; --card:#ffffff;
     --code-bg:#f2f3f6;
   }
-  @media (prefers-color-scheme: dark){
-    :root{
-      --bg:#14161a; --bg-soft:#1b1e24; --text:#e8eaed; --text-soft:#a2a8b4;
-      --border:#2c303a; --accent:#8ba4ff; --accent-soft:#1f2436; --card:#1b1e24;
-      --code-bg:#20232b;
-    }
-  }
+
   :root[data-theme="dark"]{
     --bg:#14161a; --bg-soft:#1b1e24; --text:#e8eaed; --text-soft:#a2a8b4;
     --border:#2c303a; --accent:#8ba4ff; --accent-soft:#1f2436; --card:#1b1e24;
@@ -147,6 +141,10 @@
 
   <section>
     <h2>Pipeline Overview</h2>
+    <figure class="figure">
+      <img src="assets/Teaser7.png" alt="Overview of the pipeline: from raw FFSF clips through zero-shot, frozen-feature, and LoRA fine-tuning routes to structured ICEP-R predictions">
+      <figcaption>Figure 1. Overview of our process: shared clip inventory feeding zero-shot, frozen-feature, and LoRA fine-tuning routes, producing structured infant/caregiver ICEP-R predictions.</figcaption>
+    </figure>
     <p>Three transfer routes are compared under a shared clip inventory, split policy, and evaluation protocol.</p>
     <div class="pipeline">
       <div class="pipe-step"><span class="k">Input</span>87 FFSF sessions · 10,293 audiovisual clips · infant &amp; caregiver camera views</div>
@@ -179,14 +177,18 @@
         <tr><td>Fine-tuned (joint)</td><td>Qwen2-Audio-7B</td><td>0.607</td><td>0.713</td></tr>
       </tbody>
     </table>
+    <figure class="figure">
+      <img src="assets/v1_main_results_overview_compact_with_zeroshot.png" alt="Weighted F1 across frozen-feature baselines, fine-tuned MLLMs, role-specific fine-tuned MLLMs, and zero-shot MLLMs">
+      <figcaption>Figure 4. Weighted F1 across frozen-feature baselines, fine-tuned MLLMs (joint and role-specific), and zero-shot MLLMs, for infant (blue) and caregiver (green) ICEP-R coding.</figcaption>
+    </figure>
     <div class="fig-grid">
       <figure class="figure">
-        <img src="assets/fig5_infant_f1_vs_support.png" alt="Per-class F1 vs. class support for infant labels">
-        <figcaption>Per-class F1 vs. class support — infant labels. Gains concentrate in well-represented classes; rare states remain difficult across all methods.</figcaption>
+        <img src="assets/main_results_per_class_qwen_vs_baseline.png" alt="Per-class F1 comparison between fine-tuned Qwen models and frozen-feature baselines">
+        <figcaption>Figure 5. Per-class F1 for infant and caregiver coding, fine-tuned Qwen models vs. frozen-feature baselines, with approximate class support indicated.</figcaption>
       </figure>
       <figure class="figure">
-        <img src="assets/fig6_caregiver_f1_vs_support.png" alt="Per-class F1 vs. class support for caregiver labels">
-        <figcaption>Per-class F1 vs. class support — caregiver labels.</figcaption>
+        <img src="assets/v2_confusion_matrices_relevant.png" alt="Confusion matrices for the strongest models on infant and caregiver ICEP-R labels">
+        <figcaption>Confusion matrices for the strongest models — residual errors stay structured (e.g. rare infant/caregiver states absorbed into neighboring majority classes).</figcaption>
       </figure>
     </div>
     <p>
@@ -259,8 +261,16 @@ python -m swan_ft report cv       --profile vm_h100 --dataset-spec icep_no_bg_in
 
 <footer>
   <div class="wrap">
-    Code licensed under GPL-3.0 (see <code>LICENSE</code>). Paper licensed under
-    CC BY-NC-ND 4.0, © 2026 the authors. <span class="badge">ICMI '26</span>
+    <p style="margin:0 0 8px;">
+      Code licensed under GPL-3.0 (see <code>LICENSE</code>).
+    </p>
+    <p style="margin:0;">
+      This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+      International License (CC BY-NC-ND 4.0). ICMI '26, October 05–09, 2026, Napoli, Italy.
+      © 2026 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-2318-6/2026/10.
+      DOI: <a href="https://doi.org/10.1145/3776574.3831216" style="color:inherit;">10.1145/3776574.3831216</a>.
+      <span class="badge">ICMI '26</span>
+    </p>
   </div>
 </footer>
 
