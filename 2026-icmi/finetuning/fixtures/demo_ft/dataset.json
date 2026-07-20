@@ -1,0 +1,32 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nplaceholder"
+      },
+      {
+        "from": "gpt",
+        "value": "{\"infant_code\": \"ineu\", \"caregiver_code\": \"cneu\", \"infant_description\": \"Neutral infant behavior.\", \"caregiver_description\": \"Neutral caregiver behavior.\"}"
+      }
+    ],
+    "videos": [
+      "clips/SESSION_A/segment_10.00_20.00.mp4"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nplaceholder"
+      },
+      {
+        "from": "gpt",
+        "value": "{\"infant_code\": \"bg\", \"caregiver_code\": \"bg\", \"infant_description\": \"No codable interaction.\", \"caregiver_description\": \"No codable interaction.\"}"
+      }
+    ],
+    "videos": [
+      "clips/SESSION_B/bg_00.00_10.00.mp4"
+    ]
+  }
+]

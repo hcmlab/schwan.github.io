@@ -1,0 +1,17 @@
+{
+  "profile_id": "workspace_fixture",
+  "dataset_spec_id": "icep_no_bg_infant_video",
+  "model_id": "qwen25_vl_7b",
+  "folds": [
+    0
+  ],
+  "role_mode": "infant",
+  "excluded_labels": [
+    "bg"
+  ],
+  "paths": {
+    "data_root": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft",
+    "variant_root": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\variants\\icep_no_bg_infant_video",
+    "model_root": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\output\\qwen25_vl_7b\\icep_no_bg_infant_video"
+  }
+}

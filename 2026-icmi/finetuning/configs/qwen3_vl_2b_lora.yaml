@@ -1,0 +1,42 @@
+### Legacy template. Prefer `python -m swan_ft train ...` to render machine-specific configs.
+### Fill in the *_PLACEHOLDER values if you use this file manually.
+
+model_name_or_path: Qwen/Qwen3-VL-2B-Instruct
+template: qwen3_vl_nothink
+stage: sft
+do_train: true
+
+# LoRA
+finetuning_type: lora
+lora_target: all
+lora_rank: 64
+lora_alpha: 128
+lora_dropout: 0.05
+
+# Dataset
+dataset: icep_fold_X_train
+eval_dataset: icep_fold_X_val
+dataset_dir: DATASET_DIR_PLACEHOLDER
+cutoff_len: 8192
+tokenized_path: TOKENIZED_PATH_PLACEHOLDER/fold_X
+
+# Training
+per_device_train_batch_size: 2
+per_device_eval_batch_size: 2
+gradient_accumulation_steps: 8
+learning_rate: 5.0e-5
+num_train_epochs: 5
+lr_scheduler_type: cosine
+warmup_ratio: 0.03
+bf16: true
+
+# Logging & saving
+output_dir: OUTPUT_DIR_PLACEHOLDER/fold_X
+logging_steps: 10
+save_strategy: epoch
+save_total_limit: 2
+
+# Evaluation & early stopping
+eval_strategy: epoch
+load_best_model_at_end: true
+save_on_each_node: false

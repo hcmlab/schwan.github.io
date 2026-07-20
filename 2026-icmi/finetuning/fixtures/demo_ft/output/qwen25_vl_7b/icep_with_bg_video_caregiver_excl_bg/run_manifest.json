@@ -1,0 +1,17 @@
+{
+  "profile_id": "workspace_fixture",
+  "dataset_spec_id": "icep_with_bg_video_caregiver_excl_bg",
+  "model_id": "qwen25_vl_7b",
+  "folds": [
+    0
+  ],
+  "role_mode": "caregiver",
+  "excluded_labels": [
+    "bg"
+  ],
+  "paths": {
+    "data_root": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft",
+    "variant_root": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\variants\\icep_with_bg_video_caregiver_excl_bg",
+    "model_root": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\output\\qwen25_vl_7b\\icep_with_bg_video_caregiver_excl_bg"
+  }
+}

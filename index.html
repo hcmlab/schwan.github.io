@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SCHWAN — Automated Behavioral Coding of Parent-Infant Interaction</title>
+<meta name="description" content="SCHWAN project page: automated ICEP-R behavioral coding of parent-infant interaction, from frozen-feature baselines (ICMI'24) to fine-tuned multimodal LLMs (ICMI'26).">
+<style>
+  :root{
+    --bg:#ffffff; --bg-soft:#f6f7f9; --text:#1a1d21; --text-soft:#5b6270;
+    --border:#e3e6eb; --accent:#3457d5; --accent-soft:#eef1fd; --card:#ffffff;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14161a; --bg-soft:#1b1e24; --text:#e8eaed; --text-soft:#a2a8b4;
+      --border:#2c303a; --accent:#8ba4ff; --accent-soft:#1f2436; --card:#1b1e24; }
+  }
+  :root[data-theme="dark"]{ --bg:#14161a; --bg-soft:#1b1e24; --text:#e8eaed; --text-soft:#a2a8b4;
+    --border:#2c303a; --accent:#8ba4ff; --accent-soft:#1f2436; --card:#1b1e24; }
+  :root[data-theme="light"]{ --bg:#ffffff; --bg-soft:#f6f7f9; --text:#1a1d21; --text-soft:#5b6270;
+    --border:#e3e6eb; --accent:#3457d5; --accent-soft:#eef1fd; --card:#ffffff; }
+  *{box-sizing:border-box;}
+  body{margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6;}
+  .wrap{max-width:920px; margin:0 auto; padding:0 24px;}
+  header.hero{background:linear-gradient(180deg, var(--accent-soft), var(--bg) 80%); border-bottom:1px solid var(--border); padding:60px 0 44px;}
+  .kicker{font-size:0.8rem; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); font-weight:700; margin:0 0 10px;}
+  h1{font-size:2rem; line-height:1.25; margin:0 0 16px; font-weight:800;}
+  .lede{font-size:1.05rem; color:var(--text-soft); max-width:65ch; margin:0 0 24px;}
+  .links{display:flex; flex-wrap:wrap; gap:10px;}
+  .btn{display:inline-flex; align-items:center; gap:8px; padding:9px 16px; border-radius:8px;
+    border:1px solid var(--border); background:var(--card); color:var(--text); text-decoration:none;
+    font-size:0.9rem; font-weight:600; transition:transform .12s ease, border-color .12s ease;}
+  .btn:hover{border-color:var(--accent); transform:translateY(-1px);}
+  .btn.primary{background:var(--accent); color:#fff; border-color:var(--accent);}
+  main{padding:44px 0 80px;}
+  section{margin-bottom:48px;}
+  h2{font-size:1.3rem; margin:0 0 16px;}
+  p{margin:0 0 14px;}
+  .timeline{position:relative; padding-left:28px; border-left:2px solid var(--border);}
+  .pub{position:relative; background:var(--card); border:1px solid var(--border); border-radius:12px;
+    padding:20px 22px; margin-bottom:22px;}
+  .pub::before{content:""; position:absolute; left:-35px; top:24px; width:12px; height:12px;
+    border-radius:50%; background:var(--accent); border:3px solid var(--bg);}
+  .pub .year{font-size:0.78rem; font-weight:700; color:var(--accent); text-transform:uppercase; letter-spacing:.05em;}
+  .pub h3{font-size:1.1rem; margin:6px 0 8px;}
+  .pub p{color:var(--text-soft); font-size:0.94rem; margin:0 0 12px;}
+  .pub .links{margin-top:4px;}
+  .pub .links .btn{padding:7px 13px; font-size:0.85rem;}
+  .stat-row{display:flex; flex-wrap:wrap; gap:14px; margin:8px 0 0;}
+  .stat{flex:1 1 140px; background:var(--card); border:1px solid var(--border); border-radius:10px; padding:14px 16px;}
+  .stat .n{font-size:1.3rem; font-weight:700; color:var(--accent);}
+  .stat .l{font-size:0.78rem; color:var(--text-soft);}
+  .team{font-size:0.92rem; color:var(--text-soft);}
+  .team strong{color:var(--text);}
+  footer{border-top:1px solid var(--border); padding:26px 0; font-size:0.82rem; color:var(--text-soft);}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">DFG SCHWAN Project · #490909448</p>
+    <h1>Automated Behavioral Coding of Early Parent-Infant Interaction</h1>
+    <p class="lede">
+      The SCHWAN project develops computational methods to support Infant and Caregiver Engagement
+      Phases–Revised (ICEP-R) coding in the Face-to-Face Still-Face paradigm — from frozen foundation-model
+      features to fine-tuned multimodal large language models — as scalable, expert-in-the-loop annotation
+      support for developmental and clinical research.
+    </p>
+    <div class="links">
+      <a class="btn primary" href="2026-icmi/">Latest: ICMI '26 →</a>
+      <a class="btn" href="2024-icmi/">ICMI '24</a>
+      <a class="btn" href="https://github.com/hcmlab">hcmlab on GitHub</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section>
+    <h2>Publications</h2>
+    <div class="timeline">
+
+      <div class="pub">
+        <div class="year">ICMI 2026 · Napoli, Italy</div>
+        <h3>Automated Behavioural Analysis in Parent-Infant Interactions using Multimodal-Large-Language Models</h3>
+        <p>
+          Controlled comparison of zero-shot prompting, frozen-feature transfer, and LoRA fine-tuning of
+          MLLMs (Qwen2.5-Omni, Qwen2-Audio, Qwen3-VL, GLM-4.6) for ICEP-R coding. Fine-tuned Qwen2.5-Omni-7B
+          reaches weighted F1 of 0.657 (infant) / 0.692 (caregiver), clearly outperforming zero-shot MLLMs
+          and strong DINOv3 + Wav2Vec 2.0 frozen-feature baselines.
+        </p>
+        <div class="links">
+          <a class="btn" href="2026-icmi/">Project page</a>
+          <a class="btn" href="2026-icmi/paper.pdf">Paper (PDF)</a>
+          <a class="btn" href="https://github.com/Daksitha/schwan-finetune">Code</a>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="year">ICMI 2024 · San Jose, Costa Rica</div>
+        <h3>Towards Automated Annotation of Infant-Caregiver Engagement Phases with Multimodal Foundation Models</h3>
+        <p>
+          The predecessor work: ICEP-R prediction from frozen DINOv2 (vision) and Wav2Vec2-BERT (audio)
+          embeddings with bidirectional LSTM and linear downstream classifiers, integrated with the
+          NOVA / DISCOVER annotation ecosystem.
+        </p>
+        <div class="links">
+          <a class="btn" href="2024-icmi/">Project page</a>
+          <a class="btn" href="https://doi.org/10.1145/3678957.3685704">DOI</a>
+          <a class="btn" href="https://github.com/Daksitha/SCHWAN-ICEP-R-Automation">Code</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>The task, in numbers</h2>
+    <div class="stat-row">
+      <div class="stat"><div class="n">87</div><div class="l">FFSF sessions, ~9-month-old infants</div></div>
+      <div class="stat"><div class="n">10,293</div><div class="l">annotated audio-visual clips</div></div>
+      <div class="stat"><div class="n">13</div><div class="l">ICEP-R engagement codes (infant + caregiver)</div></div>
+      <div class="stat"><div class="n">2</div><div class="l">German developmental research labs</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Institutions</h2>
+    <p class="team">
+      <strong>University of Augsburg</strong> (Human-Centered Multimedia Lab) ·
+      <strong>LMU Munich</strong> ·
+      <strong>Heidelberg University Hospital</strong> ·
+      <strong>University of Mannheim</strong> ·
+      <strong>University of Cologne</strong>
+    </p>
+    <p class="team">
+      Funded by the German Research Foundation (DFG) within the SCHWAN Project (project number: 490909448).
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    © the SCHWAN project authors. Code in linked repositories is licensed individually — see each repository's
+    LICENSE. This page is hosted at hcmlab/schwan.github.io.
+  </div>
+</footer>
+
+</body>
+</html>

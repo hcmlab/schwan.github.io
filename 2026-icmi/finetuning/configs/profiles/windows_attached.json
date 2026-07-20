@@ -1,0 +1,13 @@
+{
+  "launcher": "local",
+  "session_root": "X:/data/Schwan_T3_Clean",
+  "data_root": "X:/data/Schwan_FT",
+  "output_root": "X:/data/Schwan_FT/output",
+  "cache_root": "X:/data/.cache/huggingface",
+  "temp_root": "X:/data/tmp",
+  "logs_root": "X:/data/Schwan_FT/output/logs",
+  "env_name": "swan",
+  "python_bin": "python",
+  "conda_activate": null,
+  "local_gpus": 1
+}

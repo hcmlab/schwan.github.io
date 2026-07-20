@@ -1,0 +1,3221 @@
+[
+  {
+    "session": "Aljuch01_MUC_T3",
+    "video_duration_sec": 434.4,
+    "video_duration_min": 7.2,
+    "infant": {
+      "covered_seconds": 359.68,
+      "coverage_pct": 82.8,
+      "num_events": 43,
+      "first_annotation_start": 72.6,
+      "last_annotation_end": 433.96
+    },
+    "caregiver": {
+      "covered_seconds": 339.44,
+      "coverage_pct": 78.1,
+      "num_events": 109,
+      "first_annotation_start": 72.04,
+      "last_annotation_end": 434.32
+    },
+    "total_engagement": {
+      "covered_seconds": 362.24,
+      "coverage_pct": 83.4,
+      "num_events": 152,
+      "first_annotation_start": 72.04,
+      "last_annotation_end": 434.32
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 190.72,
+      "transition_end": 208.92,
+      "transition_duration": 18.2,
+      "sfp_start": 208.96,
+      "reunion_start": 311.16,
+      "play_duration": 190.72,
+      "sfp_duration": 102.2,
+      "reunion_duration": 123.24
+    }
+  },
+  {
+    "session": "ANOKPE01_HD_T3",
+    "video_duration_sec": 1301.199819,
+    "video_duration_min": 21.7,
+    "infant": {
+      "covered_seconds": 329.66,
+      "coverage_pct": 25.3,
+      "num_events": 62,
+      "first_annotation_start": 4.4,
+      "last_annotation_end": 336.1
+    },
+    "caregiver": {
+      "covered_seconds": 311.62,
+      "coverage_pct": 23.9,
+      "num_events": 108,
+      "first_annotation_start": 4.4,
+      "last_annotation_end": 336.73
+    },
+    "total_engagement": {
+      "covered_seconds": 332.26,
+      "coverage_pct": 25.5,
+      "num_events": 170,
+      "first_annotation_start": 4.4,
+      "last_annotation_end": 336.73
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 123.63,
+      "transition_end": 139.97,
+      "transition_duration": 16.33,
+      "sfp_start": 139.97,
+      "reunion_start": 216.6,
+      "play_duration": 123.63,
+      "sfp_duration": 76.63,
+      "reunion_duration": 1084.6
+    }
+  },
+  {
+    "session": "ANSEAN01_HD_T3",
+    "video_duration_sec": 361.186395,
+    "video_duration_min": 6.0,
+    "infant": {
+      "covered_seconds": 356.27,
+      "coverage_pct": 98.6,
+      "num_events": 42,
+      "first_annotation_start": 3.47,
+      "last_annotation_end": 361.1
+    },
+    "caregiver": {
+      "covered_seconds": 343.84,
+      "coverage_pct": 95.2,
+      "num_events": 66,
+      "first_annotation_start": 3.33,
+      "last_annotation_end": 361.1
+    },
+    "total_engagement": {
+      "covered_seconds": 357.6,
+      "coverage_pct": 99.0,
+      "num_events": 108,
+      "first_annotation_start": 3.33,
+      "last_annotation_end": 361.1
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 122.17,
+      "transition_end": 133.07,
+      "transition_duration": 10.9,
+      "sfp_start": 133.07,
+      "reunion_start": 241.87,
+      "play_duration": 122.17,
+      "sfp_duration": 108.8,
+      "reunion_duration": 119.32
+    }
+  },
+  {
+    "session": "ANSEBE01_HD_T3",
+    "video_duration_sec": 879.600326,
+    "video_duration_min": 14.7,
+    "infant": {
+      "covered_seconds": 247.56,
+      "coverage_pct": 28.1,
+      "num_events": 49,
+      "first_annotation_start": 5.63,
+      "last_annotation_end": 254.8
+    },
+    "caregiver": {
+      "covered_seconds": 216.7,
+      "coverage_pct": 24.6,
+      "num_events": 53,
+      "first_annotation_start": 5.67,
+      "last_annotation_end": 250.67
+    },
+    "total_engagement": {
+      "covered_seconds": 249.07,
+      "coverage_pct": 28.3,
+      "num_events": 102,
+      "first_annotation_start": 5.63,
+      "last_annotation_end": 254.8
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 130.47,
+      "transition_end": 156.67,
+      "transition_duration": 26.2,
+      "sfp_start": 156.67,
+      "reunion_start": 192.47,
+      "play_duration": 130.47,
+      "sfp_duration": 35.8,
+      "reunion_duration": 687.13
+    }
+  },
+  {
+    "session": "AnSeSu01_MUC_T3",
+    "video_duration_sec": 410.16,
+    "video_duration_min": 6.8,
+    "infant": {
+      "covered_seconds": 362.0,
+      "coverage_pct": 88.3,
+      "num_events": 56,
+      "first_annotation_start": 45.88,
+      "last_annotation_end": 410.08
+    },
+    "caregiver": {
+      "covered_seconds": 320.28,
+      "coverage_pct": 78.1,
+      "num_events": 102,
+      "first_annotation_start": 46.04,
+      "last_annotation_end": 410.08
+    },
+    "total_engagement": {
+      "covered_seconds": 363.76,
+      "coverage_pct": 88.7,
+      "num_events": 158,
+      "first_annotation_start": 45.88,
+      "last_annotation_end": 410.08
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 167.56,
+      "transition_end": 180.64,
+      "transition_duration": 13.08,
+      "sfp_start": 180.68,
+      "reunion_start": 287.52,
+      "play_duration": 167.56,
+      "sfp_duration": 106.84,
+      "reunion_duration": 122.64
+    }
+  },
+  {
+    "session": "BEMASU01_HD_T3",
+    "video_duration_sec": 372.958912,
+    "video_duration_min": 6.2,
+    "infant": {
+      "covered_seconds": 364.57,
+      "coverage_pct": 97.7,
+      "num_events": 75,
+      "first_annotation_start": 3.67,
+      "last_annotation_end": 370.7
+    },
+    "caregiver": {
+      "covered_seconds": 339.46,
+      "coverage_pct": 91.0,
+      "num_events": 82,
+      "first_annotation_start": 3.67,
+      "last_annotation_end": 372.87
+    },
+    "total_engagement": {
+      "covered_seconds": 369.03,
+      "coverage_pct": 98.9,
+      "num_events": 157,
+      "first_annotation_start": 3.67,
+      "last_annotation_end": 372.87
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 128.13,
+      "transition_end": 153.77,
+      "transition_duration": 25.63,
+      "sfp_start": 153.77,
+      "reunion_start": 246.03,
+      "play_duration": 128.13,
+      "sfp_duration": 92.27,
+      "reunion_duration": 126.93
+    }
+  },
+  {
+    "session": "BESEHE01_HD_T3",
+    "video_duration_sec": 365.180227,
+    "video_duration_min": 6.1,
+    "infant": {
+      "covered_seconds": 360.16,
+      "coverage_pct": 98.6,
+      "num_events": 85,
+      "first_annotation_start": 2.1,
+      "last_annotation_end": 365.07
+    },
+    "caregiver": {
+      "covered_seconds": 336.36,
+      "coverage_pct": 92.1,
+      "num_events": 80,
+      "first_annotation_start": 2.13,
+      "last_annotation_end": 365.07
+    },
+    "total_engagement": {
+      "covered_seconds": 362.77,
+      "coverage_pct": 99.3,
+      "num_events": 165,
+      "first_annotation_start": 2.1,
+      "last_annotation_end": 365.07
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 127.93,
+      "transition_end": 150.73,
+      "transition_duration": 22.8,
+      "sfp_start": 150.73,
+      "reunion_start": 246.17,
+      "play_duration": 127.93,
+      "sfp_duration": 95.43,
+      "reunion_duration": 119.01
+    }
+  },
+  {
+    "session": "BROKER01_MUC_T3",
+    "video_duration_sec": 404.88,
+    "video_duration_min": 6.7,
+    "infant": {
+      "covered_seconds": 364.52,
+      "coverage_pct": 90.0,
+      "num_events": 28,
+      "first_annotation_start": 39.2,
+      "last_annotation_end": 404.8
+    },
+    "caregiver": {
+      "covered_seconds": 339.32,
+      "coverage_pct": 83.8,
+      "num_events": 97,
+      "first_annotation_start": 39.64,
+      "last_annotation_end": 404.8
+    },
+    "total_engagement": {
+      "covered_seconds": 365.28,
+      "coverage_pct": 90.2,
+      "num_events": 125,
+      "first_annotation_start": 39.2,
+      "last_annotation_end": 404.8
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 161.24,
+      "transition_end": 182.48,
+      "transition_duration": 21.24,
+      "sfp_start": 182.52,
+      "reunion_start": 280.32,
+      "play_duration": 161.24,
+      "sfp_duration": 97.8,
+      "reunion_duration": 124.56
+    }
+  },
+  {
+    "session": "CAJARE01_MUC_T3",
+    "video_duration_sec": 457.56,
+    "video_duration_min": 7.6,
+    "infant": {
+      "covered_seconds": 360.36,
+      "coverage_pct": 78.8,
+      "num_events": 52,
+      "first_annotation_start": 92.96,
+      "last_annotation_end": 455.36
+    },
+    "caregiver": {
+      "covered_seconds": 337.72,
+      "coverage_pct": 73.8,
+      "num_events": 79,
+      "first_annotation_start": 93.6,
+      "last_annotation_end": 453.64
+    },
+    "total_engagement": {
+      "covered_seconds": 362.12,
+      "coverage_pct": 79.1,
+      "num_events": 131,
+      "first_annotation_start": 92.96,
+      "last_annotation_end": 455.36
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 213.28,
+      "transition_end": 231.92,
+      "transition_duration": 18.64,
+      "sfp_start": 231.96,
+      "reunion_start": 333.6,
+      "play_duration": 213.28,
+      "sfp_duration": 101.64,
+      "reunion_duration": 123.96
+    }
+  },
+  {
+    "session": "CAOKKA01_MUC_T3",
+    "video_duration_sec": 436.84,
+    "video_duration_min": 7.3,
+    "infant": {
+      "covered_seconds": 360.08,
+      "coverage_pct": 82.4,
+      "num_events": 57,
+      "first_annotation_start": 70.08,
+      "last_annotation_end": 432.4
+    },
+    "caregiver": {
+      "covered_seconds": 347.6,
+      "coverage_pct": 79.6,
+      "num_events": 105,
+      "first_annotation_start": 71.64,
+      "last_annotation_end": 433.64
+    },
+    "total_engagement": {
+      "covered_seconds": 363.4,
+      "coverage_pct": 83.2,
+      "num_events": 162,
+      "first_annotation_start": 70.08,
+      "last_annotation_end": 433.64
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 190.88,
+      "transition_end": 200.8,
+      "transition_duration": 9.92,
+      "sfp_start": 200.84,
+      "reunion_start": 310.76,
+      "play_duration": 190.88,
+      "sfp_duration": 109.92,
+      "reunion_duration": 126.08
+    }
+  },
+  {
+    "session": "CHMAMA01_HD_T3",
+    "video_duration_sec": 362.022313,
+    "video_duration_min": 6.0,
+    "infant": {
+      "covered_seconds": 355.54,
+      "coverage_pct": 98.2,
+      "num_events": 79,
+      "first_annotation_start": 3.8,
+      "last_annotation_end": 361.93
+    },
+    "caregiver": {
+      "covered_seconds": 340.7,
+      "coverage_pct": 94.1,
+      "num_events": 50,
+      "first_annotation_start": 3.77,
+      "last_annotation_end": 360.1
+    },
+    "total_engagement": {
+      "covered_seconds": 357.93,
+      "coverage_pct": 98.9,
+      "num_events": 129,
+      "first_annotation_start": 3.77,
+      "last_annotation_end": 361.93
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 124.9,
+      "transition_end": 138.57,
+      "transition_duration": 13.67,
+      "sfp_start": 138.57,
+      "reunion_start": 243.23,
+      "play_duration": 124.9,
+      "sfp_duration": 104.67,
+      "reunion_duration": 118.79
+    }
+  },
+  {
+    "session": "CoSeSi01_MUC_T3",
+    "video_duration_sec": 422.76,
+    "video_duration_min": 7.0,
+    "infant": {
+      "covered_seconds": 311.32,
+      "coverage_pct": 73.6,
+      "num_events": 50,
+      "first_annotation_start": 28.96,
+      "last_annotation_end": 342.24
+    },
+    "caregiver": {
+      "covered_seconds": 293.84,
+      "coverage_pct": 69.5,
+      "num_events": 108,
+      "first_annotation_start": 28.8,
+      "last_annotation_end": 340.08
+    },
+    "total_engagement": {
+      "covered_seconds": 313.2,
+      "coverage_pct": 74.1,
+      "num_events": 158,
+      "first_annotation_start": 28.8,
+      "last_annotation_end": 342.24
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 171.12,
+      "transition_end": 184.28,
+      "transition_duration": 13.16,
+      "sfp_start": 184.28,
+      "reunion_start": 290.96,
+      "play_duration": 171.12,
+      "sfp_duration": 106.68,
+      "reunion_duration": 131.8
+    }
+  },
+  {
+    "session": "DAJARO01_MUC_T3",
+    "video_duration_sec": 219.44,
+    "video_duration_min": 3.7,
+    "infant": {
+      "covered_seconds": 194.6,
+      "coverage_pct": 88.7,
+      "num_events": 21,
+      "first_annotation_start": 23.96,
+      "last_annotation_end": 219.36
+    },
+    "caregiver": {
+      "covered_seconds": 163.84,
+      "coverage_pct": 74.7,
+      "num_events": 40,
+      "first_annotation_start": 24.36,
+      "last_annotation_end": 211.52
+    },
+    "total_engagement": {
+      "covered_seconds": 195.32,
+      "coverage_pct": 89.0,
+      "num_events": 61,
+      "first_annotation_start": 23.96,
+      "last_annotation_end": 219.36
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 144.0,
+      "transition_end": 165.8,
+      "transition_duration": 21.8,
+      "sfp_start": 165.8,
+      "reunion_start": 211.52,
+      "play_duration": 144.0,
+      "sfp_duration": 45.72,
+      "reunion_duration": 7.92
+    }
+  },
+  {
+    "session": "ELAUGA01_MUC_T3",
+    "video_duration_sec": 279.68,
+    "video_duration_min": 4.7,
+    "infant": {
+      "covered_seconds": 267.4,
+      "coverage_pct": 95.6,
+      "num_events": 38,
+      "first_annotation_start": 8.16,
+      "last_annotation_end": 277.04
+    },
+    "caregiver": {
+      "covered_seconds": 261.84,
+      "coverage_pct": 93.6,
+      "num_events": 43,
+      "first_annotation_start": 0.0,
+      "last_annotation_end": 275.76
+    },
+    "total_engagement": {
+      "covered_seconds": 276.84,
+      "coverage_pct": 99.0,
+      "num_events": 81,
+      "first_annotation_start": 0.0,
+      "last_annotation_end": 277.04
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 31.28,
+      "transition_end": 43.0,
+      "transition_duration": 11.72,
+      "sfp_start": 43.0,
+      "reunion_start": 151.12,
+      "play_duration": 31.28,
+      "sfp_duration": 108.12,
+      "reunion_duration": 128.56
+    }
+  },
+  {
+    "session": "ELFEAN01_HD_T3",
+    "video_duration_sec": 381.527075,
+    "video_duration_min": 6.4,
+    "infant": {
+      "covered_seconds": 368.34,
+      "coverage_pct": 96.5,
+      "num_events": 102,
+      "first_annotation_start": 4.3,
+      "last_annotation_end": 375.97
+    },
+    "caregiver": {
+      "covered_seconds": 338.22,
+      "coverage_pct": 88.6,
+      "num_events": 69,
+      "first_annotation_start": 4.3,
+      "last_annotation_end": 373.6
+    },
+    "total_engagement": {
+      "covered_seconds": 371.27,
+      "coverage_pct": 97.3,
+      "num_events": 171,
+      "first_annotation_start": 4.3,
+      "last_annotation_end": 375.97
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 129.67,
+      "transition_end": 157.97,
+      "transition_duration": 28.3,
+      "sfp_start": 157.97,
+      "reunion_start": 246.87,
+      "play_duration": 129.67,
+      "sfp_duration": 88.9,
+      "reunion_duration": 134.66
+    }
+  },
+  {
+    "session": "ELFECH01_MUC_T3",
+    "video_duration_sec": 389.56,
+    "video_duration_min": 6.5,
+    "infant": {
+      "covered_seconds": 364.76,
+      "coverage_pct": 93.6,
+      "num_events": 25,
+      "first_annotation_start": 23.08,
+      "last_annotation_end": 388.8
+    },
+    "caregiver": {
+      "covered_seconds": 344.8,
+      "coverage_pct": 88.5,
+      "num_events": 91,
+      "first_annotation_start": 23.24,
+      "last_annotation_end": 387.96
+    },
+    "total_engagement": {
+      "covered_seconds": 365.72,
+      "coverage_pct": 93.9,
+      "num_events": 116,
+      "first_annotation_start": 23.08,
+      "last_annotation_end": 388.8
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 144.88,
+      "transition_end": 160.32,
+      "transition_duration": 15.44,
+      "sfp_start": 160.32,
+      "reunion_start": 263.92,
+      "play_duration": 144.88,
+      "sfp_duration": 103.6,
+      "reunion_duration": 125.64
+    }
+  },
+  {
+    "session": "ELMASU01_HD_T3",
+    "video_duration_sec": 366.666304,
+    "video_duration_min": 6.1,
+    "infant": {
+      "covered_seconds": 360.0,
+      "coverage_pct": 98.2,
+      "num_events": 86,
+      "first_annotation_start": 3.73,
+      "last_annotation_end": 366.57
+    },
+    "caregiver": {
+      "covered_seconds": 330.9,
+      "coverage_pct": 90.2,
+      "num_events": 68,
+      "first_annotation_start": 3.73,
+      "last_annotation_end": 366.57
+    },
+    "total_engagement": {
+      "covered_seconds": 362.47,
+      "coverage_pct": 98.9,
+      "num_events": 154,
+      "first_annotation_start": 3.73,
+      "last_annotation_end": 366.57
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 127.23,
+      "transition_end": 156.67,
+      "transition_duration": 29.43,
+      "sfp_start": 156.67,
+      "reunion_start": 248.0,
+      "play_duration": 127.23,
+      "sfp_duration": 91.33,
+      "reunion_duration": 118.67
+    }
+  },
+  {
+    "session": "EvSeLi01_MUC_T3",
+    "video_duration_sec": 514.16,
+    "video_duration_min": 8.6,
+    "infant": {
+      "covered_seconds": 438.72,
+      "coverage_pct": 85.3,
+      "num_events": 59,
+      "first_annotation_start": 68.96,
+      "last_annotation_end": 510.0
+    },
+    "caregiver": {
+      "covered_seconds": 316.32,
+      "coverage_pct": 61.5,
+      "num_events": 81,
+      "first_annotation_start": 68.68,
+      "last_annotation_end": 510.88
+    },
+    "total_engagement": {
+      "covered_seconds": 441.76,
+      "coverage_pct": 85.9,
+      "num_events": 140,
+      "first_annotation_start": 68.68,
+      "last_annotation_end": 510.88
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 189.8,
+      "transition_end": 311.96,
+      "transition_duration": 122.16,
+      "sfp_start": 312.0,
+      "reunion_start": 378.64,
+      "play_duration": 189.8,
+      "sfp_duration": 66.64,
+      "reunion_duration": 135.52
+    }
+  },
+  {
+    "session": "FRJUGU01_MUC_T3",
+    "video_duration_sec": 445.72,
+    "video_duration_min": 7.4,
+    "infant": {
+      "covered_seconds": 362.52,
+      "coverage_pct": 81.3,
+      "num_events": 59,
+      "first_annotation_start": 80.8,
+      "last_annotation_end": 445.64
+    },
+    "caregiver": {
+      "covered_seconds": 336.24,
+      "coverage_pct": 75.4,
+      "num_events": 101,
+      "first_annotation_start": 80.72,
+      "last_annotation_end": 445.64
+    },
+    "total_engagement": {
+      "covered_seconds": 364.68,
+      "coverage_pct": 81.8,
+      "num_events": 160,
+      "first_annotation_start": 80.72,
+      "last_annotation_end": 445.64
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 208.12,
+      "transition_end": 231.84,
+      "transition_duration": 23.72,
+      "sfp_start": 231.88,
+      "reunion_start": 323.64,
+      "play_duration": 208.12,
+      "sfp_duration": 91.76,
+      "reunion_duration": 122.08
+    }
+  },
+  {
+    "session": "JaApJo01_MUC_T3",
+    "video_duration_sec": 500.2,
+    "video_duration_min": 8.3,
+    "infant": {
+      "covered_seconds": 376.56,
+      "coverage_pct": 75.3,
+      "num_events": 86,
+      "first_annotation_start": 120.2,
+      "last_annotation_end": 500.12
+    },
+    "caregiver": {
+      "covered_seconds": 360.8,
+      "coverage_pct": 72.1,
+      "num_events": 97,
+      "first_annotation_start": 120.04,
+      "last_annotation_end": 500.12
+    },
+    "total_engagement": {
+      "covered_seconds": 379.88,
+      "coverage_pct": 75.9,
+      "num_events": 183,
+      "first_annotation_start": 120.04,
+      "last_annotation_end": 500.12
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 256.68,
+      "transition_end": 271.64,
+      "transition_duration": 14.96,
+      "sfp_start": 271.68,
+      "reunion_start": 375.52,
+      "play_duration": 256.68,
+      "sfp_duration": 103.84,
+      "reunion_duration": 124.68
+    }
+  },
+  {
+    "session": "JaSeRe01_MUC_T3",
+    "video_duration_sec": 427.36,
+    "video_duration_min": 7.1,
+    "infant": {
+      "covered_seconds": 365.92,
+      "coverage_pct": 85.6,
+      "num_events": 19,
+      "first_annotation_start": 60.64,
+      "last_annotation_end": 427.28
+    },
+    "caregiver": {
+      "covered_seconds": 346.64,
+      "coverage_pct": 81.1,
+      "num_events": 88,
+      "first_annotation_start": 59.6,
+      "last_annotation_end": 427.28
+    },
+    "total_engagement": {
+      "covered_seconds": 367.6,
+      "coverage_pct": 86.0,
+      "num_events": 107,
+      "first_annotation_start": 59.6,
+      "last_annotation_end": 427.28
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 184.76,
+      "transition_end": 201.52,
+      "transition_duration": 16.76,
+      "sfp_start": 201.56,
+      "reunion_start": 303.52,
+      "play_duration": 184.76,
+      "sfp_duration": 101.96,
+      "reunion_duration": 123.84
+    }
+  },
+  {
+    "session": "JEAPBA01_HD_T3",
+    "video_duration_sec": 370.126077,
+    "video_duration_min": 6.2,
+    "infant": {
+      "covered_seconds": 361.54,
+      "coverage_pct": 97.7,
+      "num_events": 84,
+      "first_annotation_start": 5.8,
+      "last_annotation_end": 370.0
+    },
+    "caregiver": {
+      "covered_seconds": 345.76,
+      "coverage_pct": 93.4,
+      "num_events": 89,
+      "first_annotation_start": 5.8,
+      "last_annotation_end": 370.03
+    },
+    "total_engagement": {
+      "covered_seconds": 364.1,
+      "coverage_pct": 98.4,
+      "num_events": 173,
+      "first_annotation_start": 5.8,
+      "last_annotation_end": 370.03
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 128.13,
+      "transition_end": 143.17,
+      "transition_duration": 15.03,
+      "sfp_start": 143.17,
+      "reunion_start": 247.9,
+      "play_duration": 128.13,
+      "sfp_duration": 104.73,
+      "reunion_duration": 122.23
+    }
+  },
+  {
+    "session": "JEAPCO01_HD_T3",
+    "video_duration_sec": 339.429297,
+    "video_duration_min": 5.7,
+    "infant": {
+      "covered_seconds": 331.8,
+      "coverage_pct": 97.8,
+      "num_events": 50,
+      "first_annotation_start": 5.9,
+      "last_annotation_end": 339.33
+    },
+    "caregiver": {
+      "covered_seconds": 315.06,
+      "coverage_pct": 92.8,
+      "num_events": 53,
+      "first_annotation_start": 5.77,
+      "last_annotation_end": 339.33
+    },
+    "total_engagement": {
+      "covered_seconds": 333.57,
+      "coverage_pct": 98.3,
+      "num_events": 103,
+      "first_annotation_start": 5.77,
+      "last_annotation_end": 339.33
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 132.27,
+      "transition_end": 147.83,
+      "transition_duration": 15.57,
+      "sfp_start": 147.83,
+      "reunion_start": 251.73,
+      "play_duration": 132.27,
+      "sfp_duration": 103.9,
+      "reunion_duration": 87.7
+    }
+  },
+  {
+    "session": "JEOKSI01_HD_T3",
+    "video_duration_sec": 374.236009,
+    "video_duration_min": 6.2,
+    "infant": {
+      "covered_seconds": 367.94,
+      "coverage_pct": 98.3,
+      "num_events": 77,
+      "first_annotation_start": 3.7,
+      "last_annotation_end": 374.13
+    },
+    "caregiver": {
+      "covered_seconds": 344.25,
+      "coverage_pct": 92.0,
+      "num_events": 86,
+      "first_annotation_start": 3.7,
+      "last_annotation_end": 364.33
+    },
+    "total_engagement": {
+      "covered_seconds": 370.33,
+      "coverage_pct": 99.0,
+      "num_events": 163,
+      "first_annotation_start": 3.7,
+      "last_annotation_end": 374.13
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 122.63,
+      "transition_end": 134.97,
+      "transition_duration": 12.33,
+      "sfp_start": 134.97,
+      "reunion_start": 243.4,
+      "play_duration": 122.63,
+      "sfp_duration": 108.43,
+      "reunion_duration": 130.84
+    }
+  },
+  {
+    "session": "JIFEHE01_HD_T3",
+    "video_duration_sec": 365.876825,
+    "video_duration_min": 6.1,
+    "infant": {
+      "covered_seconds": 359.8,
+      "coverage_pct": 98.3,
+      "num_events": 57,
+      "first_annotation_start": 4.1,
+      "last_annotation_end": 365.77
+    },
+    "caregiver": {
+      "covered_seconds": 339.07,
+      "coverage_pct": 92.7,
+      "num_events": 51,
+      "first_annotation_start": 4.1,
+      "last_annotation_end": 360.37
+    },
+    "total_engagement": {
+      "covered_seconds": 361.46,
+      "coverage_pct": 98.8,
+      "num_events": 108,
+      "first_annotation_start": 4.1,
+      "last_annotation_end": 365.77
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 125.2,
+      "transition_end": 139.97,
+      "transition_duration": 14.77,
+      "sfp_start": 139.97,
+      "reunion_start": 246.2,
+      "play_duration": 125.2,
+      "sfp_duration": 106.23,
+      "reunion_duration": 119.68
+    }
+  },
+  {
+    "session": "JOAUUN01_HD_T3",
+    "video_duration_sec": 362.231293,
+    "video_duration_min": 6.0,
+    "infant": {
+      "covered_seconds": 357.04,
+      "coverage_pct": 98.6,
+      "num_events": 46,
+      "first_annotation_start": 3.6,
+      "last_annotation_end": 362.13
+    },
+    "caregiver": {
+      "covered_seconds": 339.47,
+      "coverage_pct": 93.7,
+      "num_events": 60,
+      "first_annotation_start": 3.63,
+      "last_annotation_end": 362.13
+    },
+    "total_engagement": {
+      "covered_seconds": 358.53,
+      "coverage_pct": 99.0,
+      "num_events": 106,
+      "first_annotation_start": 3.6,
+      "last_annotation_end": 362.13
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 122.47,
+      "transition_end": 139.03,
+      "transition_duration": 16.57,
+      "sfp_start": 139.03,
+      "reunion_start": 242.53,
+      "play_duration": 122.47,
+      "sfp_duration": 103.5,
+      "reunion_duration": 119.7
+    }
+  },
+  {
+    "session": "JoOkGe01_MUC_T3",
+    "video_duration_sec": 485.96,
+    "video_duration_min": 8.1,
+    "infant": {
+      "covered_seconds": 366.44,
+      "coverage_pct": 75.4,
+      "num_events": 44,
+      "first_annotation_start": 117.72,
+      "last_annotation_end": 485.88
+    },
+    "caregiver": {
+      "covered_seconds": 344.68,
+      "coverage_pct": 70.9,
+      "num_events": 98,
+      "first_annotation_start": 118.28,
+      "last_annotation_end": 484.8
+    },
+    "total_engagement": {
+      "covered_seconds": 367.8,
+      "coverage_pct": 75.7,
+      "num_events": 142,
+      "first_annotation_start": 117.72,
+      "last_annotation_end": 485.88
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 238.64,
+      "transition_end": 249.04,
+      "transition_duration": 10.4,
+      "sfp_start": 249.04,
+      "reunion_start": 359.16,
+      "play_duration": 238.64,
+      "sfp_duration": 110.12,
+      "reunion_duration": 126.8
+    }
+  },
+  {
+    "session": "Jujulu01_MUC_T3",
+    "video_duration_sec": 466.36,
+    "video_duration_min": 7.8,
+    "infant": {
+      "covered_seconds": 361.36,
+      "coverage_pct": 77.5,
+      "num_events": 57,
+      "first_annotation_start": 101.84,
+      "last_annotation_end": 466.28
+    },
+    "caregiver": {
+      "covered_seconds": 341.28,
+      "coverage_pct": 73.2,
+      "num_events": 61,
+      "first_annotation_start": 101.72,
+      "last_annotation_end": 465.28
+    },
+    "total_engagement": {
+      "covered_seconds": 364.56,
+      "coverage_pct": 78.2,
+      "num_events": 118,
+      "first_annotation_start": 101.72,
+      "last_annotation_end": 466.28
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 221.24,
+      "transition_end": 240.72,
+      "transition_duration": 19.48,
+      "sfp_start": 240.72,
+      "reunion_start": 342.64,
+      "play_duration": 221.24,
+      "sfp_duration": 101.92,
+      "reunion_duration": 123.72
+    }
+  },
+  {
+    "session": "JUMAIS01_MUC_T3",
+    "video_duration_sec": 711.68,
+    "video_duration_min": 11.9,
+    "infant": {
+      "covered_seconds": 363.16,
+      "coverage_pct": 51.0,
+      "num_events": 23,
+      "first_annotation_start": 19.96,
+      "last_annotation_end": 384.0
+    },
+    "caregiver": {
+      "covered_seconds": 337.68,
+      "coverage_pct": 47.4,
+      "num_events": 93,
+      "first_annotation_start": 19.72,
+      "last_annotation_end": 383.08
+    },
+    "total_engagement": {
+      "covered_seconds": 364.2,
+      "coverage_pct": 51.2,
+      "num_events": 116,
+      "first_annotation_start": 19.72,
+      "last_annotation_end": 384.0
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 140.52,
+      "transition_end": 160.6,
+      "transition_duration": 20.08,
+      "sfp_start": 160.6,
+      "reunion_start": 261.8,
+      "play_duration": 140.52,
+      "sfp_duration": 101.2,
+      "reunion_duration": 449.88
+    }
+  },
+  {
+    "session": "KaJaMa01_MUC_T3",
+    "video_duration_sec": 421.84,
+    "video_duration_min": 7.0,
+    "infant": {
+      "covered_seconds": 362.48,
+      "coverage_pct": 85.9,
+      "num_events": 27,
+      "first_annotation_start": 58.2,
+      "last_annotation_end": 421.72
+    },
+    "caregiver": {
+      "covered_seconds": 349.88,
+      "coverage_pct": 82.9,
+      "num_events": 89,
+      "first_annotation_start": 58.44,
+      "last_annotation_end": 421.64
+    },
+    "total_engagement": {
+      "covered_seconds": 363.48,
+      "coverage_pct": 86.2,
+      "num_events": 116,
+      "first_annotation_start": 58.2,
+      "last_annotation_end": 421.72
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 178.4,
+      "transition_end": 188.2,
+      "transition_duration": 9.8,
+      "sfp_start": 188.2,
+      "reunion_start": 299.0,
+      "play_duration": 178.4,
+      "sfp_duration": 110.8,
+      "reunion_duration": 122.84
+    }
+  },
+  {
+    "session": "KAJUHE01STERN_MUC_T3",
+    "video_duration_sec": 437.44,
+    "video_duration_min": 7.3,
+    "infant": {
+      "covered_seconds": 363.04,
+      "coverage_pct": 83.0,
+      "num_events": 36,
+      "first_annotation_start": 44.2,
+      "last_annotation_end": 408.64
+    },
+    "caregiver": {
+      "covered_seconds": 331.36,
+      "coverage_pct": 75.7,
+      "num_events": 61,
+      "first_annotation_start": 44.2,
+      "last_annotation_end": 393.64
+    },
+    "total_engagement": {
+      "covered_seconds": 364.24,
+      "coverage_pct": 83.3,
+      "num_events": 97,
+      "first_annotation_start": 44.2,
+      "last_annotation_end": 408.64
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 148.56,
+      "transition_end": 163.68,
+      "transition_duration": 15.12,
+      "sfp_start": 163.68,
+      "reunion_start": 275.48,
+      "play_duration": 148.56,
+      "sfp_duration": 111.8,
+      "reunion_duration": 161.96
+    }
+  },
+  {
+    "session": "Kamaev01_MUC_T3",
+    "video_duration_sec": 382.96,
+    "video_duration_min": 6.4,
+    "infant": {
+      "covered_seconds": 362.52,
+      "coverage_pct": 94.7,
+      "num_events": 40,
+      "first_annotation_start": 18.76,
+      "last_annotation_end": 382.84
+    },
+    "caregiver": {
+      "covered_seconds": 342.2,
+      "coverage_pct": 89.4,
+      "num_events": 80,
+      "first_annotation_start": 18.08,
+      "last_annotation_end": 382.88
+    },
+    "total_engagement": {
+      "covered_seconds": 364.76,
+      "coverage_pct": 95.2,
+      "num_events": 120,
+      "first_annotation_start": 18.08,
+      "last_annotation_end": 382.88
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 141.44,
+      "transition_end": 160.36,
+      "transition_duration": 18.92,
+      "sfp_start": 160.36,
+      "reunion_start": 260.56,
+      "play_duration": 141.44,
+      "sfp_duration": 100.2,
+      "reunion_duration": 122.4
+    }
+  },
+  {
+    "session": "LAMASY01_MUC_T3",
+    "video_duration_sec": 423.16,
+    "video_duration_min": 7.1,
+    "infant": {
+      "covered_seconds": 362.56,
+      "coverage_pct": 85.7,
+      "num_events": 67,
+      "first_annotation_start": 57.88,
+      "last_annotation_end": 423.08
+    },
+    "caregiver": {
+      "covered_seconds": 326.92,
+      "coverage_pct": 77.3,
+      "num_events": 73,
+      "first_annotation_start": 57.04,
+      "last_annotation_end": 423.08
+    },
+    "total_engagement": {
+      "covered_seconds": 365.88,
+      "coverage_pct": 86.5,
+      "num_events": 140,
+      "first_annotation_start": 57.04,
+      "last_annotation_end": 423.08
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 181.32,
+      "transition_end": 216.88,
+      "transition_duration": 35.56,
+      "sfp_start": 216.88,
+      "reunion_start": 299.44,
+      "play_duration": 181.32,
+      "sfp_duration": 82.56,
+      "reunion_duration": 123.72
+    }
+  },
+  {
+    "session": "LAOKIR01_MUC_T3",
+    "video_duration_sec": 444.64,
+    "video_duration_min": 7.4,
+    "infant": {
+      "covered_seconds": 360.0,
+      "coverage_pct": 81.0,
+      "num_events": 34,
+      "first_annotation_start": 77.12,
+      "last_annotation_end": 438.44
+    },
+    "caregiver": {
+      "covered_seconds": 341.16,
+      "coverage_pct": 76.7,
+      "num_events": 52,
+      "first_annotation_start": 75.8,
+      "last_annotation_end": 437.16
+    },
+    "total_engagement": {
+      "covered_seconds": 362.52,
+      "coverage_pct": 81.5,
+      "num_events": 86,
+      "first_annotation_start": 75.8,
+      "last_annotation_end": 438.44
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 197.2,
+      "transition_end": 214.84,
+      "transition_duration": 17.64,
+      "sfp_start": 214.84,
+      "reunion_start": 317.0,
+      "play_duration": 197.2,
+      "sfp_duration": 102.16,
+      "reunion_duration": 127.64
+    }
+  },
+  {
+    "session": "LeApMo01_MUC_T3",
+    "video_duration_sec": 413.76,
+    "video_duration_min": 6.9,
+    "infant": {
+      "covered_seconds": 364.24,
+      "coverage_pct": 88.0,
+      "num_events": 35,
+      "first_annotation_start": 48.08,
+      "last_annotation_end": 413.68
+    },
+    "caregiver": {
+      "covered_seconds": 347.96,
+      "coverage_pct": 84.1,
+      "num_events": 59,
+      "first_annotation_start": 47.2,
+      "last_annotation_end": 413.24
+    },
+    "total_engagement": {
+      "covered_seconds": 366.36,
+      "coverage_pct": 88.5,
+      "num_events": 94,
+      "first_annotation_start": 47.2,
+      "last_annotation_end": 413.68
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 172.68,
+      "transition_end": 187.12,
+      "transition_duration": 14.44,
+      "sfp_start": 187.12,
+      "reunion_start": 291.8,
+      "play_duration": 172.68,
+      "sfp_duration": 104.68,
+      "reunion_duration": 121.96
+    }
+  },
+  {
+    "session": "LESERE01_HD_T3",
+    "video_duration_sec": 371.240635,
+    "video_duration_min": 6.2,
+    "infant": {
+      "covered_seconds": 366.4,
+      "coverage_pct": 98.7,
+      "num_events": 27,
+      "first_annotation_start": 3.83,
+      "last_annotation_end": 371.1
+    },
+    "caregiver": {
+      "covered_seconds": 347.54,
+      "coverage_pct": 93.6,
+      "num_events": 101,
+      "first_annotation_start": 3.77,
+      "last_annotation_end": 370.27
+    },
+    "total_engagement": {
+      "covered_seconds": 367.3,
+      "coverage_pct": 98.9,
+      "num_events": 128,
+      "first_annotation_start": 3.77,
+      "last_annotation_end": 371.1
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 126.73,
+      "transition_end": 141.4,
+      "transition_duration": 14.67,
+      "sfp_start": 141.4,
+      "reunion_start": 246.0,
+      "play_duration": 126.73,
+      "sfp_duration": 104.6,
+      "reunion_duration": 125.24
+    }
+  },
+  {
+    "session": "LIAPKA01_MUC_T3",
+    "video_duration_sec": 413.2,
+    "video_duration_min": 6.9,
+    "infant": {
+      "covered_seconds": 366.4,
+      "coverage_pct": 88.7,
+      "num_events": 27,
+      "first_annotation_start": 39.92,
+      "last_annotation_end": 407.32
+    },
+    "caregiver": {
+      "covered_seconds": 349.52,
+      "coverage_pct": 84.6,
+      "num_events": 69,
+      "first_annotation_start": 38.8,
+      "last_annotation_end": 406.92
+    },
+    "total_engagement": {
+      "covered_seconds": 368.24,
+      "coverage_pct": 89.1,
+      "num_events": 96,
+      "first_annotation_start": 38.8,
+      "last_annotation_end": 407.32
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 169.04,
+      "transition_end": 184.24,
+      "transition_duration": 15.2,
+      "sfp_start": 184.24,
+      "reunion_start": 284.48,
+      "play_duration": 169.04,
+      "sfp_duration": 100.24,
+      "reunion_duration": 128.72
+    }
+  },
+  {
+    "session": "LIDEMA01_HD_T3",
+    "video_duration_sec": 364.042449,
+    "video_duration_min": 6.1,
+    "infant": {
+      "covered_seconds": 359.24,
+      "coverage_pct": 98.7,
+      "num_events": 39,
+      "first_annotation_start": 3.47,
+      "last_annotation_end": 363.97
+    },
+    "caregiver": {
+      "covered_seconds": 343.77,
+      "coverage_pct": 94.4,
+      "num_events": 63,
+      "first_annotation_start": 3.5,
+      "last_annotation_end": 363.97
+    },
+    "total_engagement": {
+      "covered_seconds": 360.43,
+      "coverage_pct": 99.0,
+      "num_events": 102,
+      "first_annotation_start": 3.47,
+      "last_annotation_end": 363.97
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 123.17,
+      "transition_end": 137.3,
+      "transition_duration": 14.13,
+      "sfp_start": 137.3,
+      "reunion_start": 243.17,
+      "play_duration": 123.17,
+      "sfp_duration": 105.87,
+      "reunion_duration": 120.88
+    }
+  },
+  {
+    "session": "LIMABE01_MUC_T3",
+    "video_duration_sec": 462.8,
+    "video_duration_min": 7.7,
+    "infant": {
+      "covered_seconds": 361.32,
+      "coverage_pct": 78.1,
+      "num_events": 55,
+      "first_annotation_start": 80.36,
+      "last_annotation_end": 443.84
+    },
+    "caregiver": {
+      "covered_seconds": 343.88,
+      "coverage_pct": 74.3,
+      "num_events": 98,
+      "first_annotation_start": 79.8,
+      "last_annotation_end": 444.88
+    },
+    "total_engagement": {
+      "covered_seconds": 364.92,
+      "coverage_pct": 78.9,
+      "num_events": 153,
+      "first_annotation_start": 79.8,
+      "last_annotation_end": 444.88
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 203.36,
+      "transition_end": 220.24,
+      "transition_duration": 16.88,
+      "sfp_start": 220.24,
+      "reunion_start": 314.04,
+      "play_duration": 203.36,
+      "sfp_duration": 93.8,
+      "reunion_duration": 148.76
+    }
+  },
+  {
+    "session": "LiNoBe01_MUC_T3",
+    "video_duration_sec": 406.88,
+    "video_duration_min": 6.8,
+    "infant": {
+      "covered_seconds": 362.4,
+      "coverage_pct": 89.1,
+      "num_events": 71,
+      "first_annotation_start": 41.6,
+      "last_annotation_end": 406.8
+    },
+    "caregiver": {
+      "covered_seconds": 345.96,
+      "coverage_pct": 85.0,
+      "num_events": 71,
+      "first_annotation_start": 41.0,
+      "last_annotation_end": 406.8
+    },
+    "total_engagement": {
+      "covered_seconds": 365.52,
+      "coverage_pct": 89.8,
+      "num_events": 142,
+      "first_annotation_start": 41.0,
+      "last_annotation_end": 406.8
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 164.08,
+      "transition_end": 179.64,
+      "transition_duration": 15.56,
+      "sfp_start": 179.64,
+      "reunion_start": 283.6,
+      "play_duration": 164.08,
+      "sfp_duration": 103.96,
+      "reunion_duration": 123.28
+    }
+  },
+  {
+    "session": "LISEUL01_HD_T3",
+    "video_duration_sec": 367.548662,
+    "video_duration_min": 6.1,
+    "infant": {
+      "covered_seconds": 360.04,
+      "coverage_pct": 98.0,
+      "num_events": 76,
+      "first_annotation_start": 4.93,
+      "last_annotation_end": 367.47
+    },
+    "caregiver": {
+      "covered_seconds": 334.9,
+      "coverage_pct": 91.1,
+      "num_events": 74,
+      "first_annotation_start": 4.93,
+      "last_annotation_end": 364.87
+    },
+    "total_engagement": {
+      "covered_seconds": 362.1,
+      "coverage_pct": 98.5,
+      "num_events": 150,
+      "first_annotation_start": 4.93,
+      "last_annotation_end": 367.47
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 127.77,
+      "transition_end": 149.33,
+      "transition_duration": 21.57,
+      "sfp_start": 149.33,
+      "reunion_start": 247.53,
+      "play_duration": 127.77,
+      "sfp_duration": 98.2,
+      "reunion_duration": 120.02
+    }
+  },
+  {
+    "session": "MAAPGE01_HD_T3",
+    "video_duration_sec": 362.626032,
+    "video_duration_min": 6.0,
+    "infant": {
+      "covered_seconds": 358.1,
+      "coverage_pct": 98.8,
+      "num_events": 35,
+      "first_annotation_start": 3.33,
+      "last_annotation_end": 362.57
+    },
+    "caregiver": {
+      "covered_seconds": 338.4,
+      "coverage_pct": 93.3,
+      "num_events": 73,
+      "first_annotation_start": 3.33,
+      "last_annotation_end": 362.57
+    },
+    "total_engagement": {
+      "covered_seconds": 358.97,
+      "coverage_pct": 99.0,
+      "num_events": 108,
+      "first_annotation_start": 3.33,
+      "last_annotation_end": 362.57
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 122.3,
+      "transition_end": 137.6,
+      "transition_duration": 15.3,
+      "sfp_start": 137.6,
+      "reunion_start": 242.17,
+      "play_duration": 122.3,
+      "sfp_duration": 104.57,
+      "reunion_duration": 120.46
+    }
+  },
+  {
+    "session": "MAAPKE01_HD_T3",
+    "video_duration_sec": 400.706757,
+    "video_duration_min": 6.7,
+    "infant": {
+      "covered_seconds": 365.63,
+      "coverage_pct": 91.2,
+      "num_events": 80,
+      "first_annotation_start": 5.47,
+      "last_annotation_end": 373.73
+    },
+    "caregiver": {
+      "covered_seconds": 341.94,
+      "coverage_pct": 85.3,
+      "num_events": 92,
+      "first_annotation_start": 5.47,
+      "last_annotation_end": 372.5
+    },
+    "total_engagement": {
+      "covered_seconds": 368.17,
+      "coverage_pct": 91.9,
+      "num_events": 172,
+      "first_annotation_start": 5.47,
+      "last_annotation_end": 373.73
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 128.93,
+      "transition_end": 150.13,
+      "transition_duration": 21.2,
+      "sfp_start": 150.13,
+      "reunion_start": 246.27,
+      "play_duration": 128.93,
+      "sfp_duration": 96.13,
+      "reunion_duration": 154.44
+    }
+  },
+  {
+    "session": "MaAuHe01STERN_MUC_T3",
+    "video_duration_sec": 464.88,
+    "video_duration_min": 7.7,
+    "infant": {
+      "covered_seconds": 361.72,
+      "coverage_pct": 77.8,
+      "num_events": 42,
+      "first_annotation_start": 91.4,
+      "last_annotation_end": 454.76
+    },
+    "caregiver": {
+      "covered_seconds": 336.88,
+      "coverage_pct": 72.5,
+      "num_events": 75,
+      "first_annotation_start": 91.48,
+      "last_annotation_end": 453.52
+    },
+    "total_engagement": {
+      "covered_seconds": 363.32,
+      "coverage_pct": 78.2,
+      "num_events": 117,
+      "first_annotation_start": 91.4,
+      "last_annotation_end": 454.76
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 213.16,
+      "transition_end": 233.88,
+      "transition_duration": 20.72,
+      "sfp_start": 233.88,
+      "reunion_start": 338.2,
+      "play_duration": 213.16,
+      "sfp_duration": 104.32,
+      "reunion_duration": 126.68
+    }
+  },
+  {
+    "session": "MADECA01_HD_T3",
+    "video_duration_sec": 436.302948,
+    "video_duration_min": 7.3,
+    "infant": {
+      "covered_seconds": 375.8,
+      "coverage_pct": 86.1,
+      "num_events": 26,
+      "first_annotation_start": 4.03,
+      "last_annotation_end": 380.67
+    },
+    "caregiver": {
+      "covered_seconds": 354.37,
+      "coverage_pct": 81.2,
+      "num_events": 77,
+      "first_annotation_start": 3.97,
+      "last_annotation_end": 376.53
+    },
+    "total_engagement": {
+      "covered_seconds": 376.67,
+      "coverage_pct": 86.3,
+      "num_events": 103,
+      "first_annotation_start": 3.97,
+      "last_annotation_end": 380.67
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 132.1,
+      "transition_end": 146.4,
+      "transition_duration": 14.3,
+      "sfp_start": 146.4,
+      "reunion_start": 252.77,
+      "play_duration": 132.1,
+      "sfp_duration": 106.37,
+      "reunion_duration": 183.54
+    }
+  },
+  {
+    "session": "MAJAJE01_HD_T3",
+    "video_duration_sec": 379.576599,
+    "video_duration_min": 6.3,
+    "infant": {
+      "covered_seconds": 324.67,
+      "coverage_pct": 85.5,
+      "num_events": 75,
+      "first_annotation_start": 5.9,
+      "last_annotation_end": 333.03
+    },
+    "caregiver": {
+      "covered_seconds": 302.57,
+      "coverage_pct": 79.7,
+      "num_events": 81,
+      "first_annotation_start": 5.9,
+      "last_annotation_end": 333.6
+    },
+    "total_engagement": {
+      "covered_seconds": 327.5,
+      "coverage_pct": 86.3,
+      "num_events": 156,
+      "first_annotation_start": 5.9,
+      "last_annotation_end": 333.6
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 127.17,
+      "transition_end": 149.47,
+      "transition_duration": 22.3,
+      "sfp_start": 149.47,
+      "reunion_start": 215.0,
+      "play_duration": 127.17,
+      "sfp_duration": 65.53,
+      "reunion_duration": 164.58
+    }
+  },
+  {
+    "session": "MAJARO01_MUC_T3",
+    "video_duration_sec": 407.0,
+    "video_duration_min": 6.8,
+    "infant": {
+      "covered_seconds": 361.2,
+      "coverage_pct": 88.7,
+      "num_events": 36,
+      "first_annotation_start": 41.8,
+      "last_annotation_end": 404.4
+    },
+    "caregiver": {
+      "covered_seconds": 339.72,
+      "coverage_pct": 83.5,
+      "num_events": 73,
+      "first_annotation_start": 42.08,
+      "last_annotation_end": 403.72
+    },
+    "total_engagement": {
+      "covered_seconds": 362.44,
+      "coverage_pct": 89.1,
+      "num_events": 109,
+      "first_annotation_start": 41.8,
+      "last_annotation_end": 404.4
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 160.76,
+      "transition_end": 179.12,
+      "transition_duration": 18.36,
+      "sfp_start": 179.12,
+      "reunion_start": 282.32,
+      "play_duration": 160.76,
+      "sfp_duration": 103.2,
+      "reunion_duration": 124.68
+    }
+  },
+  {
+    "session": "MAJUUL01_HD_T3",
+    "video_duration_sec": 375.931066,
+    "video_duration_min": 6.3,
+    "infant": {
+      "covered_seconds": 359.63,
+      "coverage_pct": 95.7,
+      "num_events": 60,
+      "first_annotation_start": 7.23,
+      "last_annotation_end": 368.83
+    },
+    "caregiver": {
+      "covered_seconds": 346.87,
+      "coverage_pct": 92.3,
+      "num_events": 77,
+      "first_annotation_start": 7.2,
+      "last_annotation_end": 370.63
+    },
+    "total_engagement": {
+      "covered_seconds": 363.33,
+      "coverage_pct": 96.6,
+      "num_events": 137,
+      "first_annotation_start": 7.2,
+      "last_annotation_end": 370.63
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 133.0,
+      "transition_end": 146.03,
+      "transition_duration": 13.03,
+      "sfp_start": 146.03,
+      "reunion_start": 247.53,
+      "play_duration": 133.0,
+      "sfp_duration": 101.5,
+      "reunion_duration": 128.4
+    }
+  },
+  {
+    "session": "MAMABE01_HD_T3",
+    "video_duration_sec": 1782.294059,
+    "video_duration_min": 29.7,
+    "infant": {
+      "covered_seconds": 360.67,
+      "coverage_pct": 20.2,
+      "num_events": 86,
+      "first_annotation_start": 3.77,
+      "last_annotation_end": 367.27
+    },
+    "caregiver": {
+      "covered_seconds": 349.23,
+      "coverage_pct": 19.6,
+      "num_events": 91,
+      "first_annotation_start": 3.77,
+      "last_annotation_end": 371.07
+    },
+    "total_engagement": {
+      "covered_seconds": 367.06,
+      "coverage_pct": 20.6,
+      "num_events": 177,
+      "first_annotation_start": 3.77,
+      "last_annotation_end": 371.07
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 128.77,
+      "transition_end": 143.03,
+      "transition_duration": 14.27,
+      "sfp_start": 143.03,
+      "reunion_start": 247.03,
+      "play_duration": 128.77,
+      "sfp_duration": 104.0,
+      "reunion_duration": 1535.26
+    }
+  },
+  {
+    "session": "MAMACH01_HD_T3",
+    "video_duration_sec": 368.918639,
+    "video_duration_min": 6.1,
+    "infant": {
+      "covered_seconds": 361.3,
+      "coverage_pct": 97.9,
+      "num_events": 51,
+      "first_annotation_start": 5.83,
+      "last_annotation_end": 368.8
+    },
+    "caregiver": {
+      "covered_seconds": 341.74,
+      "coverage_pct": 92.6,
+      "num_events": 112,
+      "first_annotation_start": 5.83,
+      "last_annotation_end": 368.8
+    },
+    "total_engagement": {
+      "covered_seconds": 362.77,
+      "coverage_pct": 98.3,
+      "num_events": 163,
+      "first_annotation_start": 5.83,
+      "last_annotation_end": 368.8
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 127.87,
+      "transition_end": 145.17,
+      "transition_duration": 17.3,
+      "sfp_start": 145.17,
+      "reunion_start": 248.9,
+      "play_duration": 127.87,
+      "sfp_duration": 103.73,
+      "reunion_duration": 120.02
+    }
+  },
+  {
+    "session": "MANOSI01_MUC_T3",
+    "video_duration_sec": 382.28,
+    "video_duration_min": 6.4,
+    "infant": {
+      "covered_seconds": 360.92,
+      "coverage_pct": 94.4,
+      "num_events": 50,
+      "first_annotation_start": 19.32,
+      "last_annotation_end": 382.2
+    },
+    "caregiver": {
+      "covered_seconds": 340.68,
+      "coverage_pct": 89.1,
+      "num_events": 56,
+      "first_annotation_start": 17.64,
+      "last_annotation_end": 382.2
+    },
+    "total_engagement": {
+      "covered_seconds": 364.24,
+      "coverage_pct": 95.3,
+      "num_events": 106,
+      "first_annotation_start": 17.64,
+      "last_annotation_end": 382.2
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 138.64,
+      "transition_end": 159.72,
+      "transition_duration": 21.08,
+      "sfp_start": 159.72,
+      "reunion_start": 258.8,
+      "play_duration": 138.64,
+      "sfp_duration": 99.08,
+      "reunion_duration": 123.48
+    }
+  },
+  {
+    "session": "MAOKZU01_HD_T3",
+    "video_duration_sec": 366.132245,
+    "video_duration_min": 6.1,
+    "infant": {
+      "covered_seconds": 358.39,
+      "coverage_pct": 97.9,
+      "num_events": 79,
+      "first_annotation_start": 3.47,
+      "last_annotation_end": 364.47
+    },
+    "caregiver": {
+      "covered_seconds": 343.17,
+      "coverage_pct": 93.7,
+      "num_events": 104,
+      "first_annotation_start": 3.47,
+      "last_annotation_end": 363.9
+    },
+    "total_engagement": {
+      "covered_seconds": 360.87,
+      "coverage_pct": 98.6,
+      "num_events": 183,
+      "first_annotation_start": 3.47,
+      "last_annotation_end": 364.47
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 122.0,
+      "transition_end": 134.97,
+      "transition_duration": 12.97,
+      "sfp_start": 134.97,
+      "reunion_start": 242.47,
+      "play_duration": 122.0,
+      "sfp_duration": 107.5,
+      "reunion_duration": 123.67
+    }
+  },
+  {
+    "session": "MaSeCo01_MUC_T3",
+    "video_duration_sec": 418.16,
+    "video_duration_min": 7.0,
+    "infant": {
+      "covered_seconds": 372.16,
+      "coverage_pct": 89.0,
+      "num_events": 58,
+      "first_annotation_start": 43.64,
+      "last_annotation_end": 418.08
+    },
+    "caregiver": {
+      "covered_seconds": 352.72,
+      "coverage_pct": 84.4,
+      "num_events": 55,
+      "first_annotation_start": 43.4,
+      "last_annotation_end": 416.68
+    },
+    "total_engagement": {
+      "covered_seconds": 374.56,
+      "coverage_pct": 89.6,
+      "num_events": 113,
+      "first_annotation_start": 43.4,
+      "last_annotation_end": 418.08
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 176.16,
+      "transition_end": 194.36,
+      "transition_duration": 18.2,
+      "sfp_start": 194.36,
+      "reunion_start": 295.12,
+      "play_duration": 176.16,
+      "sfp_duration": 100.76,
+      "reunion_duration": 123.04
+    }
+  },
+  {
+    "session": "MASESI01_HD_T3",
+    "video_duration_sec": 372.773152,
+    "video_duration_min": 6.2,
+    "infant": {
+      "covered_seconds": 364.4,
+      "coverage_pct": 97.8,
+      "num_events": 77,
+      "first_annotation_start": 5.77,
+      "last_annotation_end": 372.7
+    },
+    "caregiver": {
+      "covered_seconds": 345.24,
+      "coverage_pct": 92.6,
+      "num_events": 70,
+      "first_annotation_start": 5.73,
+      "last_annotation_end": 372.7
+    },
+    "total_engagement": {
+      "covered_seconds": 366.83,
+      "coverage_pct": 98.4,
+      "num_events": 147,
+      "first_annotation_start": 5.73,
+      "last_annotation_end": 372.7
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 127.3,
+      "transition_end": 145.9,
+      "transition_duration": 18.6,
+      "sfp_start": 145.9,
+      "reunion_start": 247.3,
+      "play_duration": 127.3,
+      "sfp_duration": 101.4,
+      "reunion_duration": 125.47
+    }
+  },
+  {
+    "session": "MEDEAN01_MUC_T3",
+    "video_duration_sec": 402.72,
+    "video_duration_min": 6.7,
+    "infant": {
+      "covered_seconds": 315.92,
+      "coverage_pct": 78.4,
+      "num_events": 37,
+      "first_annotation_start": 37.12,
+      "last_annotation_end": 354.48
+    },
+    "caregiver": {
+      "covered_seconds": 288.52,
+      "coverage_pct": 71.6,
+      "num_events": 73,
+      "first_annotation_start": 36.0,
+      "last_annotation_end": 338.52
+    },
+    "total_engagement": {
+      "covered_seconds": 318.28,
+      "coverage_pct": 79.0,
+      "num_events": 110,
+      "first_annotation_start": 36.0,
+      "last_annotation_end": 354.48
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 156.96,
+      "transition_end": 167.16,
+      "transition_duration": 10.2,
+      "sfp_start": 167.16,
+      "reunion_start": 276.16,
+      "play_duration": 156.96,
+      "sfp_duration": 109.0,
+      "reunion_duration": 126.56
+    }
+  },
+  {
+    "session": "MESEAN01_MUC_T3",
+    "video_duration_sec": 454.04,
+    "video_duration_min": 7.6,
+    "infant": {
+      "covered_seconds": 367.88,
+      "coverage_pct": 81.0,
+      "num_events": 51,
+      "first_annotation_start": 83.64,
+      "last_annotation_end": 453.52
+    },
+    "caregiver": {
+      "covered_seconds": 327.56,
+      "coverage_pct": 72.1,
+      "num_events": 81,
+      "first_annotation_start": 83.32,
+      "last_annotation_end": 453.36
+    },
+    "total_engagement": {
+      "covered_seconds": 369.96,
+      "coverage_pct": 81.5,
+      "num_events": 132,
+      "first_annotation_start": 83.32,
+      "last_annotation_end": 453.52
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 215.4,
+      "transition_end": 252.88,
+      "transition_duration": 37.48,
+      "sfp_start": 252.88,
+      "reunion_start": 332.68,
+      "play_duration": 215.4,
+      "sfp_duration": 79.8,
+      "reunion_duration": 121.36
+    }
+  },
+  {
+    "session": "minosn01_MUC_T3",
+    "video_duration_sec": 406.24,
+    "video_duration_min": 6.8,
+    "infant": {
+      "covered_seconds": 382.32,
+      "coverage_pct": 94.1,
+      "num_events": 49,
+      "first_annotation_start": 21.92,
+      "last_annotation_end": 406.16
+    },
+    "caregiver": {
+      "covered_seconds": 367.36,
+      "coverage_pct": 90.4,
+      "num_events": 71,
+      "first_annotation_start": 22.64,
+      "last_annotation_end": 406.16
+    },
+    "total_engagement": {
+      "covered_seconds": 384.2,
+      "coverage_pct": 94.6,
+      "num_events": 120,
+      "first_annotation_start": 21.92,
+      "last_annotation_end": 406.16
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 162.76,
+      "transition_end": 175.36,
+      "transition_duration": 12.6,
+      "sfp_start": 175.36,
+      "reunion_start": 281.92,
+      "play_duration": 162.76,
+      "sfp_duration": 106.56,
+      "reunion_duration": 124.32
+    }
+  },
+  {
+    "session": "MODEAN01_MUC_T3",
+    "video_duration_sec": 407.44,
+    "video_duration_min": 6.8,
+    "infant": {
+      "covered_seconds": 360.0,
+      "coverage_pct": 88.4,
+      "num_events": 68,
+      "first_annotation_start": 28.44,
+      "last_annotation_end": 391.08
+    },
+    "caregiver": {
+      "covered_seconds": 341.24,
+      "coverage_pct": 83.8,
+      "num_events": 63,
+      "first_annotation_start": 27.56,
+      "last_annotation_end": 389.64
+    },
+    "total_engagement": {
+      "covered_seconds": 363.36,
+      "coverage_pct": 89.2,
+      "num_events": 131,
+      "first_annotation_start": 27.56,
+      "last_annotation_end": 391.08
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 149.16,
+      "transition_end": 166.84,
+      "transition_duration": 17.68,
+      "sfp_start": 166.84,
+      "reunion_start": 269.52,
+      "play_duration": 149.16,
+      "sfp_duration": 102.68,
+      "reunion_duration": 137.92
+    }
+  },
+  {
+    "session": "MOJUUL01_HD_T3",
+    "video_duration_sec": 365.714286,
+    "video_duration_min": 6.1,
+    "infant": {
+      "covered_seconds": 359.3,
+      "coverage_pct": 98.2,
+      "num_events": 36,
+      "first_annotation_start": 5.17,
+      "last_annotation_end": 365.63
+    },
+    "caregiver": {
+      "covered_seconds": 337.67,
+      "coverage_pct": 92.3,
+      "num_events": 87,
+      "first_annotation_start": 5.13,
+      "last_annotation_end": 365.63
+    },
+    "total_engagement": {
+      "covered_seconds": 360.47,
+      "coverage_pct": 98.6,
+      "num_events": 123,
+      "first_annotation_start": 5.13,
+      "last_annotation_end": 365.63
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 126.4,
+      "transition_end": 145.5,
+      "transition_duration": 19.1,
+      "sfp_start": 145.5,
+      "reunion_start": 244.73,
+      "play_duration": 126.4,
+      "sfp_duration": 99.23,
+      "reunion_duration": 120.98
+    }
+  },
+  {
+    "session": "NAAPCA01_HD_T3",
+    "video_duration_sec": 737.558639,
+    "video_duration_min": 12.3,
+    "infant": {
+      "covered_seconds": 363.76,
+      "coverage_pct": 49.3,
+      "num_events": 70,
+      "first_annotation_start": 3.67,
+      "last_annotation_end": 369.73
+    },
+    "caregiver": {
+      "covered_seconds": 344.5,
+      "coverage_pct": 46.7,
+      "num_events": 64,
+      "first_annotation_start": 3.63,
+      "last_annotation_end": 370.03
+    },
+    "total_engagement": {
+      "covered_seconds": 366.37,
+      "coverage_pct": 49.7,
+      "num_events": 134,
+      "first_annotation_start": 3.63,
+      "last_annotation_end": 370.03
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 126.13,
+      "transition_end": 143.5,
+      "transition_duration": 17.37,
+      "sfp_start": 143.5,
+      "reunion_start": 246.07,
+      "play_duration": 126.13,
+      "sfp_duration": 102.57,
+      "reunion_duration": 491.49
+    }
+  },
+  {
+    "session": "NAAPNA01_HD_T3",
+    "video_duration_sec": 388.632381,
+    "video_duration_min": 6.5,
+    "infant": {
+      "covered_seconds": 357.87,
+      "coverage_pct": 92.1,
+      "num_events": 56,
+      "first_annotation_start": 4.03,
+      "last_annotation_end": 363.73
+    },
+    "caregiver": {
+      "covered_seconds": 337.5,
+      "coverage_pct": 86.8,
+      "num_events": 68,
+      "first_annotation_start": 4.0,
+      "last_annotation_end": 359.73
+    },
+    "total_engagement": {
+      "covered_seconds": 359.6,
+      "coverage_pct": 92.5,
+      "num_events": 124,
+      "first_annotation_start": 4.0,
+      "last_annotation_end": 363.73
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 135.2,
+      "transition_end": 150.97,
+      "transition_duration": 15.77,
+      "sfp_start": 150.97,
+      "reunion_start": 253.07,
+      "play_duration": 135.2,
+      "sfp_duration": 102.1,
+      "reunion_duration": 135.57
+    }
+  },
+  {
+    "session": "NAAUMO01_HD_T3",
+    "video_duration_sec": 300.303673,
+    "video_duration_min": 5.0,
+    "infant": {
+      "covered_seconds": 296.1,
+      "coverage_pct": 98.6,
+      "num_events": 38,
+      "first_annotation_start": 2.9,
+      "last_annotation_end": 300.23
+    },
+    "caregiver": {
+      "covered_seconds": 281.9,
+      "coverage_pct": 93.9,
+      "num_events": 62,
+      "first_annotation_start": 2.9,
+      "last_annotation_end": 300.23
+    },
+    "total_engagement": {
+      "covered_seconds": 297.27,
+      "coverage_pct": 99.0,
+      "num_events": 100,
+      "first_annotation_start": 2.9,
+      "last_annotation_end": 300.23
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 121.97,
+      "transition_end": 134.87,
+      "transition_duration": 12.9,
+      "sfp_start": 134.87,
+      "reunion_start": 242.53,
+      "play_duration": 121.97,
+      "sfp_duration": 107.67,
+      "reunion_duration": 57.77
+    }
+  },
+  {
+    "session": "NASEAN01_HD_T3",
+    "video_duration_sec": 365.435646,
+    "video_duration_min": 6.1,
+    "infant": {
+      "covered_seconds": 359.73,
+      "coverage_pct": 98.4,
+      "num_events": 69,
+      "first_annotation_start": 3.33,
+      "last_annotation_end": 365.33
+    },
+    "caregiver": {
+      "covered_seconds": 346.73,
+      "coverage_pct": 94.9,
+      "num_events": 63,
+      "first_annotation_start": 3.33,
+      "last_annotation_end": 365.33
+    },
+    "total_engagement": {
+      "covered_seconds": 361.9,
+      "coverage_pct": 99.0,
+      "num_events": 132,
+      "first_annotation_start": 3.33,
+      "last_annotation_end": 365.33
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 123.77,
+      "transition_end": 134.87,
+      "transition_duration": 11.1,
+      "sfp_start": 134.87,
+      "reunion_start": 242.47,
+      "play_duration": 123.77,
+      "sfp_duration": 107.6,
+      "reunion_duration": 122.97
+    }
+  },
+  {
+    "session": "Niauan01_MUC_T3",
+    "video_duration_sec": 434.32,
+    "video_duration_min": 7.2,
+    "infant": {
+      "covered_seconds": 361.0,
+      "coverage_pct": 83.1,
+      "num_events": 7,
+      "first_annotation_start": 73.0,
+      "last_annotation_end": 434.24
+    },
+    "caregiver": {
+      "covered_seconds": 346.32,
+      "coverage_pct": 79.7,
+      "num_events": 57,
+      "first_annotation_start": 73.08,
+      "last_annotation_end": 434.12
+    },
+    "total_engagement": {
+      "covered_seconds": 361.24,
+      "coverage_pct": 83.2,
+      "num_events": 64,
+      "first_annotation_start": 73.0,
+      "last_annotation_end": 434.24
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 191.56,
+      "transition_end": 202.92,
+      "transition_duration": 11.36,
+      "sfp_start": 202.92,
+      "reunion_start": 310.8,
+      "play_duration": 191.56,
+      "sfp_duration": 107.88,
+      "reunion_duration": 123.52
+    }
+  },
+  {
+    "session": "NIAUIN01_HD_T3",
+    "video_duration_sec": 625.847438,
+    "video_duration_min": 10.4,
+    "infant": {
+      "covered_seconds": 358.04,
+      "coverage_pct": 57.2,
+      "num_events": 96,
+      "first_annotation_start": 2.67,
+      "last_annotation_end": 363.87
+    },
+    "caregiver": {
+      "covered_seconds": 344.6,
+      "coverage_pct": 55.1,
+      "num_events": 88,
+      "first_annotation_start": 2.63,
+      "last_annotation_end": 363.23
+    },
+    "total_engagement": {
+      "covered_seconds": 361.0,
+      "coverage_pct": 57.7,
+      "num_events": 184,
+      "first_annotation_start": 2.63,
+      "last_annotation_end": 363.87
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 118.0,
+      "transition_end": 130.97,
+      "transition_duration": 12.97,
+      "sfp_start": 130.97,
+      "reunion_start": 237.9,
+      "play_duration": 118.0,
+      "sfp_duration": 106.93,
+      "reunion_duration": 387.95
+    }
+  },
+  {
+    "session": "NIAUMA01_HD_T3",
+    "video_duration_sec": 372.749932,
+    "video_duration_min": 6.2,
+    "infant": {
+      "covered_seconds": 364.46,
+      "coverage_pct": 97.8,
+      "num_events": 66,
+      "first_annotation_start": 6.0,
+      "last_annotation_end": 372.63
+    },
+    "caregiver": {
+      "covered_seconds": 349.04,
+      "coverage_pct": 93.6,
+      "num_events": 62,
+      "first_annotation_start": 6.0,
+      "last_annotation_end": 372.67
+    },
+    "total_engagement": {
+      "covered_seconds": 366.53,
+      "coverage_pct": 98.3,
+      "num_events": 128,
+      "first_annotation_start": 6.0,
+      "last_annotation_end": 372.67
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 123.63,
+      "transition_end": 139.1,
+      "transition_duration": 15.47,
+      "sfp_start": 139.1,
+      "reunion_start": 247.07,
+      "play_duration": 123.63,
+      "sfp_duration": 107.97,
+      "reunion_duration": 125.68
+    }
+  },
+  {
+    "session": "Olapma01_MUC_T3",
+    "video_duration_sec": 406.64,
+    "video_duration_min": 6.8,
+    "infant": {
+      "covered_seconds": 256.4,
+      "coverage_pct": 63.1,
+      "num_events": 23,
+      "first_annotation_start": 43.36,
+      "last_annotation_end": 300.64
+    },
+    "caregiver": {
+      "covered_seconds": 230.76,
+      "coverage_pct": 56.7,
+      "num_events": 39,
+      "first_annotation_start": 43.48,
+      "last_annotation_end": 291.52
+    },
+    "total_engagement": {
+      "covered_seconds": 257.24,
+      "coverage_pct": 63.3,
+      "num_events": 62,
+      "first_annotation_start": 43.36,
+      "last_annotation_end": 300.64
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 164.96,
+      "transition_end": 180.0,
+      "transition_duration": 15.04,
+      "sfp_start": 180.0,
+      "reunion_start": 283.24,
+      "play_duration": 164.96,
+      "sfp_duration": 103.24,
+      "reunion_duration": 123.4
+    }
+  },
+  {
+    "session": "PaJaBr01_MUC_T3",
+    "video_duration_sec": 558.0,
+    "video_duration_min": 9.3,
+    "infant": {
+      "covered_seconds": 369.12,
+      "coverage_pct": 66.2,
+      "num_events": 44,
+      "first_annotation_start": 187.04,
+      "last_annotation_end": 557.88
+    },
+    "caregiver": {
+      "covered_seconds": 346.92,
+      "coverage_pct": 62.2,
+      "num_events": 113,
+      "first_annotation_start": 186.76,
+      "last_annotation_end": 557.92
+    },
+    "total_engagement": {
+      "covered_seconds": 370.96,
+      "coverage_pct": 66.5,
+      "num_events": 157,
+      "first_annotation_start": 186.76,
+      "last_annotation_end": 557.92
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 310.24,
+      "transition_end": 329.56,
+      "transition_duration": 19.32,
+      "sfp_start": 329.56,
+      "reunion_start": 429.84,
+      "play_duration": 310.24,
+      "sfp_duration": 100.28,
+      "reunion_duration": 128.16
+    }
+  },
+  {
+    "session": "PAJUJU01_HD_T3",
+    "video_duration_sec": 370.845896,
+    "video_duration_min": 6.2,
+    "infant": {
+      "covered_seconds": 362.6,
+      "coverage_pct": 97.8,
+      "num_events": 73,
+      "first_annotation_start": 5.77,
+      "last_annotation_end": 370.77
+    },
+    "caregiver": {
+      "covered_seconds": 345.8,
+      "coverage_pct": 93.2,
+      "num_events": 88,
+      "first_annotation_start": 5.77,
+      "last_annotation_end": 370.77
+    },
+    "total_engagement": {
+      "covered_seconds": 364.9,
+      "coverage_pct": 98.4,
+      "num_events": 161,
+      "first_annotation_start": 5.77,
+      "last_annotation_end": 370.77
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 130.9,
+      "transition_end": 145.43,
+      "transition_duration": 14.53,
+      "sfp_start": 145.43,
+      "reunion_start": 248.87,
+      "play_duration": 130.9,
+      "sfp_duration": 103.43,
+      "reunion_duration": 121.98
+    }
+  },
+  {
+    "session": "REJACL01_MUC_T3",
+    "video_duration_sec": 398.32,
+    "video_duration_min": 6.6,
+    "infant": {
+      "covered_seconds": 360.88,
+      "coverage_pct": 90.6,
+      "num_events": 63,
+      "first_annotation_start": 91.64,
+      "last_annotation_end": 455.0
+    },
+    "caregiver": {
+      "covered_seconds": 345.2,
+      "coverage_pct": 86.7,
+      "num_events": 32,
+      "first_annotation_start": 55.0,
+      "last_annotation_end": 417.04
+    },
+    "total_engagement": {
+      "covered_seconds": 399.6,
+      "coverage_pct": 100.3,
+      "num_events": 95,
+      "first_annotation_start": 55.0,
+      "last_annotation_end": 455.0
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 176.08,
+      "transition_end": 191.4,
+      "transition_duration": 15.32,
+      "sfp_start": 191.4,
+      "reunion_start": 293.68,
+      "play_duration": 176.08,
+      "sfp_duration": 102.28,
+      "reunion_duration": 104.64
+    }
+  },
+  {
+    "session": "REMAJU01_MUC_T3",
+    "video_duration_sec": 415.72,
+    "video_duration_min": 6.9,
+    "infant": {
+      "covered_seconds": 366.2,
+      "coverage_pct": 88.1,
+      "num_events": 47,
+      "first_annotation_start": 37.76,
+      "last_annotation_end": 405.8
+    },
+    "caregiver": {
+      "covered_seconds": 351.16,
+      "coverage_pct": 84.5,
+      "num_events": 82,
+      "first_annotation_start": 36.28,
+      "last_annotation_end": 404.8
+    },
+    "total_engagement": {
+      "covered_seconds": 369.44,
+      "coverage_pct": 88.9,
+      "num_events": 129,
+      "first_annotation_start": 36.28,
+      "last_annotation_end": 405.8
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 165.12,
+      "transition_end": 179.04,
+      "transition_duration": 13.92,
+      "sfp_start": 179.04,
+      "reunion_start": 283.12,
+      "play_duration": 165.12,
+      "sfp_duration": 104.08,
+      "reunion_duration": 132.6
+    }
+  },
+  {
+    "session": "ROJUIR01_HD_T3",
+    "video_duration_sec": 374.514649,
+    "video_duration_min": 6.2,
+    "infant": {
+      "covered_seconds": 368.32,
+      "coverage_pct": 98.3,
+      "num_events": 49,
+      "first_annotation_start": 4.53,
+      "last_annotation_end": 374.47
+    },
+    "caregiver": {
+      "covered_seconds": 355.9,
+      "coverage_pct": 95.0,
+      "num_events": 97,
+      "first_annotation_start": 4.5,
+      "last_annotation_end": 374.47
+    },
+    "total_engagement": {
+      "covered_seconds": 369.87,
+      "coverage_pct": 98.8,
+      "num_events": 146,
+      "first_annotation_start": 4.5,
+      "last_annotation_end": 374.47
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 128.9,
+      "transition_end": 139.33,
+      "transition_duration": 10.43,
+      "sfp_start": 139.33,
+      "reunion_start": 257.17,
+      "play_duration": 128.9,
+      "sfp_duration": 117.83,
+      "reunion_duration": 117.35
+    }
+  },
+  {
+    "session": "RONOUT01_MUC_T3",
+    "video_duration_sec": 429.2,
+    "video_duration_min": 7.2,
+    "infant": {
+      "covered_seconds": 366.76,
+      "coverage_pct": 85.5,
+      "num_events": 41,
+      "first_annotation_start": 60.76,
+      "last_annotation_end": 429.12
+    },
+    "caregiver": {
+      "covered_seconds": 353.76,
+      "coverage_pct": 82.4,
+      "num_events": 68,
+      "first_annotation_start": 60.72,
+      "last_annotation_end": 429.12
+    },
+    "total_engagement": {
+      "covered_seconds": 368.32,
+      "coverage_pct": 85.8,
+      "num_events": 109,
+      "first_annotation_start": 60.72,
+      "last_annotation_end": 429.12
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 185.8,
+      "transition_end": 197.68,
+      "transition_duration": 11.88,
+      "sfp_start": 197.68,
+      "reunion_start": 306.44,
+      "play_duration": 185.8,
+      "sfp_duration": 108.76,
+      "reunion_duration": 122.76
+    }
+  },
+  {
+    "session": "SAFEBI01_HD_T3",
+    "video_duration_sec": 362.300952,
+    "video_duration_min": 6.0,
+    "infant": {
+      "covered_seconds": 356.5,
+      "coverage_pct": 98.4,
+      "num_events": 63,
+      "first_annotation_start": 3.6,
+      "last_annotation_end": 362.17
+    },
+    "caregiver": {
+      "covered_seconds": 340.26,
+      "coverage_pct": 93.9,
+      "num_events": 69,
+      "first_annotation_start": 3.63,
+      "last_annotation_end": 362.17
+    },
+    "total_engagement": {
+      "covered_seconds": 358.47,
+      "coverage_pct": 98.9,
+      "num_events": 132,
+      "first_annotation_start": 3.6,
+      "last_annotation_end": 362.17
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 121.37,
+      "transition_end": 137.17,
+      "transition_duration": 15.8,
+      "sfp_start": 137.17,
+      "reunion_start": 241.87,
+      "play_duration": 121.37,
+      "sfp_duration": 104.7,
+      "reunion_duration": 120.43
+    }
+  },
+  {
+    "session": "SAFECA01_MUC_T3",
+    "video_duration_sec": 452.88,
+    "video_duration_min": 7.5,
+    "infant": {
+      "covered_seconds": 358.6,
+      "coverage_pct": 79.2,
+      "num_events": 86,
+      "first_annotation_start": 86.88,
+      "last_annotation_end": 448.88
+    },
+    "caregiver": {
+      "covered_seconds": 345.4,
+      "coverage_pct": 76.3,
+      "num_events": 69,
+      "first_annotation_start": 87.04,
+      "last_annotation_end": 450.92
+    },
+    "total_engagement": {
+      "covered_seconds": 363.92,
+      "coverage_pct": 80.4,
+      "num_events": 155,
+      "first_annotation_start": 86.88,
+      "last_annotation_end": 450.92
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 206.76,
+      "transition_end": 221.08,
+      "transition_duration": 14.32,
+      "sfp_start": 221.08,
+      "reunion_start": 332.04,
+      "play_duration": 206.76,
+      "sfp_duration": 110.96,
+      "reunion_duration": 120.84
+    }
+  },
+  {
+    "session": "SAFEJO01_MUC_T3",
+    "video_duration_sec": 442.44,
+    "video_duration_min": 7.4,
+    "infant": {
+      "covered_seconds": 264.56,
+      "coverage_pct": 59.8,
+      "num_events": 31,
+      "first_annotation_start": 57.32,
+      "last_annotation_end": 323.08
+    },
+    "caregiver": {
+      "covered_seconds": 264.68,
+      "coverage_pct": 59.8,
+      "num_events": 26,
+      "first_annotation_start": 57.32,
+      "last_annotation_end": 334.0
+    },
+    "total_engagement": {
+      "covered_seconds": 276.68,
+      "coverage_pct": 62.5,
+      "num_events": 57,
+      "first_annotation_start": 57.32,
+      "last_annotation_end": 334.0
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 192.36,
+      "transition_end": 202.6,
+      "transition_duration": 10.24,
+      "sfp_start": 202.6,
+      "reunion_start": 309.0,
+      "play_duration": 192.36,
+      "sfp_duration": 106.4,
+      "reunion_duration": 133.44
+    }
+  },
+  {
+    "session": "SAFELI01_HD_T3",
+    "video_duration_sec": 366.573424,
+    "video_duration_min": 6.1,
+    "infant": {
+      "covered_seconds": 361.1,
+      "coverage_pct": 98.5,
+      "num_events": 36,
+      "first_annotation_start": 4.2,
+      "last_annotation_end": 366.47
+    },
+    "caregiver": {
+      "covered_seconds": 355.37,
+      "coverage_pct": 96.9,
+      "num_events": 46,
+      "first_annotation_start": 4.07,
+      "last_annotation_end": 366.47
+    },
+    "total_engagement": {
+      "covered_seconds": 362.4,
+      "coverage_pct": 98.9,
+      "num_events": 82,
+      "first_annotation_start": 4.07,
+      "last_annotation_end": 366.47
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 131.07,
+      "transition_end": 136.17,
+      "transition_duration": 5.1,
+      "sfp_start": 136.17,
+      "reunion_start": 244.37,
+      "play_duration": 131.07,
+      "sfp_duration": 108.2,
+      "reunion_duration": 122.21
+    }
+  },
+  {
+    "session": "SAJARE01_HD_T3",
+    "video_duration_sec": 2290.602086,
+    "video_duration_min": 38.2,
+    "infant": {
+      "covered_seconds": 348.33,
+      "coverage_pct": 15.2,
+      "num_events": 67,
+      "first_annotation_start": 4.6,
+      "last_annotation_end": 355.13
+    },
+    "caregiver": {
+      "covered_seconds": 331.17,
+      "coverage_pct": 14.5,
+      "num_events": 69,
+      "first_annotation_start": 4.57,
+      "last_annotation_end": 353.07
+    },
+    "total_engagement": {
+      "covered_seconds": 350.36,
+      "coverage_pct": 15.3,
+      "num_events": 136,
+      "first_annotation_start": 4.57,
+      "last_annotation_end": 355.13
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 124.93,
+      "transition_end": 138.53,
+      "transition_duration": 13.6,
+      "sfp_start": 138.53,
+      "reunion_start": 246.73,
+      "play_duration": 124.93,
+      "sfp_duration": 108.2,
+      "reunion_duration": 2043.87
+    }
+  },
+  {
+    "session": "SASEAN01_HD_T3",
+    "video_duration_sec": 371.287075,
+    "video_duration_min": 6.2,
+    "infant": {
+      "covered_seconds": 366.96,
+      "coverage_pct": 98.8,
+      "num_events": 60,
+      "first_annotation_start": 2.3,
+      "last_annotation_end": 371.2
+    },
+    "caregiver": {
+      "covered_seconds": 346.67,
+      "coverage_pct": 93.4,
+      "num_events": 69,
+      "first_annotation_start": 2.3,
+      "last_annotation_end": 371.2
+    },
+    "total_engagement": {
+      "covered_seconds": 368.83,
+      "coverage_pct": 99.3,
+      "num_events": 129,
+      "first_annotation_start": 2.3,
+      "last_annotation_end": 371.2
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 121.23,
+      "transition_end": 139.43,
+      "transition_duration": 18.2,
+      "sfp_start": 139.43,
+      "reunion_start": 244.03,
+      "play_duration": 121.23,
+      "sfp_duration": 104.6,
+      "reunion_duration": 127.25
+    }
+  },
+  {
+    "session": "Saseco01_MUC_T3",
+    "video_duration_sec": 426.68,
+    "video_duration_min": 7.1,
+    "infant": {
+      "covered_seconds": 361.52,
+      "coverage_pct": 84.7,
+      "num_events": 60,
+      "first_annotation_start": 60.76,
+      "last_annotation_end": 424.64
+    },
+    "caregiver": {
+      "covered_seconds": 349.84,
+      "coverage_pct": 82.0,
+      "num_events": 51,
+      "first_annotation_start": 60.4,
+      "last_annotation_end": 426.6
+    },
+    "total_engagement": {
+      "covered_seconds": 366.04,
+      "coverage_pct": 85.8,
+      "num_events": 111,
+      "first_annotation_start": 60.4,
+      "last_annotation_end": 426.6
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 184.72,
+      "transition_end": 198.88,
+      "transition_duration": 14.16,
+      "sfp_start": 198.88,
+      "reunion_start": 318.0,
+      "play_duration": 184.72,
+      "sfp_duration": 119.12,
+      "reunion_duration": 108.68
+    }
+  },
+  {
+    "session": "SOAUMA01_MUC_T3",
+    "video_duration_sec": 428.04,
+    "video_duration_min": 7.1,
+    "infant": {
+      "covered_seconds": 364.4,
+      "coverage_pct": 85.1,
+      "num_events": 33,
+      "first_annotation_start": 62.28,
+      "last_annotation_end": 427.96
+    },
+    "caregiver": {
+      "covered_seconds": 343.16,
+      "coverage_pct": 80.2,
+      "num_events": 85,
+      "first_annotation_start": 62.08,
+      "last_annotation_end": 426.88
+    },
+    "total_engagement": {
+      "covered_seconds": 365.76,
+      "coverage_pct": 85.4,
+      "num_events": 118,
+      "first_annotation_start": 62.08,
+      "last_annotation_end": 427.96
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 192.48,
+      "transition_end": 210.6,
+      "transition_duration": 18.12,
+      "sfp_start": 210.6,
+      "reunion_start": 308.44,
+      "play_duration": 192.48,
+      "sfp_duration": 97.84,
+      "reunion_duration": 119.6
+    }
+  },
+  {
+    "session": "SOJAMO01_HD_T3",
+    "video_duration_sec": 370.102857,
+    "video_duration_min": 6.2,
+    "infant": {
+      "covered_seconds": 363.17,
+      "coverage_pct": 98.1,
+      "num_events": 53,
+      "first_annotation_start": 5.13,
+      "last_annotation_end": 370.03
+    },
+    "caregiver": {
+      "covered_seconds": 351.54,
+      "coverage_pct": 95.0,
+      "num_events": 53,
+      "first_annotation_start": 5.1,
+      "last_annotation_end": 370.03
+    },
+    "total_engagement": {
+      "covered_seconds": 364.93,
+      "coverage_pct": 98.6,
+      "num_events": 106,
+      "first_annotation_start": 5.1,
+      "last_annotation_end": 370.03
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 127.27,
+      "transition_end": 138.47,
+      "transition_duration": 11.2,
+      "sfp_start": 138.47,
+      "reunion_start": 248.77,
+      "play_duration": 127.27,
+      "sfp_duration": 110.3,
+      "reunion_duration": 121.34
+    }
+  },
+  {
+    "session": "Svsean01_MUC_T3",
+    "video_duration_sec": 504.52,
+    "video_duration_min": 8.4,
+    "infant": {
+      "covered_seconds": 362.4,
+      "coverage_pct": 71.8,
+      "num_events": 68,
+      "first_annotation_start": 138.72,
+      "last_annotation_end": 503.8
+    },
+    "caregiver": {
+      "covered_seconds": 343.32,
+      "coverage_pct": 68.0,
+      "num_events": 71,
+      "first_annotation_start": 138.72,
+      "last_annotation_end": 504.36
+    },
+    "total_engagement": {
+      "covered_seconds": 365.52,
+      "coverage_pct": 72.4,
+      "num_events": 139,
+      "first_annotation_start": 138.72,
+      "last_annotation_end": 504.36
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 259.8,
+      "transition_end": 278.56,
+      "transition_duration": 18.76,
+      "sfp_start": 278.56,
+      "reunion_start": 381.2,
+      "play_duration": 259.8,
+      "sfp_duration": 102.64,
+      "reunion_duration": 123.32
+    }
+  },
+  {
+    "session": "TAFEFR01_HD_T3",
+    "video_duration_sec": 366.178685,
+    "video_duration_min": 6.1,
+    "infant": {
+      "covered_seconds": 360.67,
+      "coverage_pct": 98.5,
+      "num_events": 33,
+      "first_annotation_start": 3.8,
+      "last_annotation_end": 365.53
+    },
+    "caregiver": {
+      "covered_seconds": 342.74,
+      "coverage_pct": 93.6,
+      "num_events": 64,
+      "first_annotation_start": 3.73,
+      "last_annotation_end": 366.1
+    },
+    "total_engagement": {
+      "covered_seconds": 362.37,
+      "coverage_pct": 99.0,
+      "num_events": 97,
+      "first_annotation_start": 3.73,
+      "last_annotation_end": 366.1
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 128.9,
+      "transition_end": 144.7,
+      "transition_duration": 15.8,
+      "sfp_start": 144.7,
+      "reunion_start": 242.8,
+      "play_duration": 128.9,
+      "sfp_duration": 98.1,
+      "reunion_duration": 123.38
+    }
+  },
+  {
+    "session": "TaJuPa01_MUC_T3",
+    "video_duration_sec": 446.44,
+    "video_duration_min": 7.4,
+    "infant": {
+      "covered_seconds": 362.0,
+      "coverage_pct": 81.1,
+      "num_events": 80,
+      "first_annotation_start": 81.2,
+      "last_annotation_end": 446.36
+    },
+    "caregiver": {
+      "covered_seconds": 323.68,
+      "coverage_pct": 72.5,
+      "num_events": 80,
+      "first_annotation_start": 80.48,
+      "last_annotation_end": 445.56
+    },
+    "total_engagement": {
+      "covered_seconds": 365.76,
+      "coverage_pct": 81.9,
+      "num_events": 160,
+      "first_annotation_start": 80.48,
+      "last_annotation_end": 446.36
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 202.76,
+      "transition_end": 240.72,
+      "transition_duration": 37.96,
+      "sfp_start": 240.72,
+      "reunion_start": 322.52,
+      "play_duration": 202.76,
+      "sfp_duration": 81.8,
+      "reunion_duration": 123.92
+    }
+  },
+  {
+    "session": "VEJAGE01_MUC_T3",
+    "video_duration_sec": 1226.08,
+    "video_duration_min": 20.4,
+    "infant": {
+      "covered_seconds": 384.68,
+      "coverage_pct": 31.4,
+      "num_events": 84,
+      "first_annotation_start": 0.0,
+      "last_annotation_end": 388.0
+    },
+    "caregiver": {
+      "covered_seconds": 365.36,
+      "coverage_pct": 29.8,
+      "num_events": 100,
+      "first_annotation_start": 0.0,
+      "last_annotation_end": 389.96
+    },
+    "total_engagement": {
+      "covered_seconds": 389.76,
+      "coverage_pct": 31.8,
+      "num_events": 184,
+      "first_annotation_start": 0.0,
+      "last_annotation_end": 389.96
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 142.36,
+      "transition_end": 154.28,
+      "transition_duration": 11.92,
+      "sfp_start": 154.28,
+      "reunion_start": 261.88,
+      "play_duration": 142.36,
+      "sfp_duration": 107.6,
+      "reunion_duration": 964.2
+    }
+  },
+  {
+    "session": "WAJUAN01_MUC_T3",
+    "video_duration_sec": 432.28,
+    "video_duration_min": 7.2,
+    "infant": {
+      "covered_seconds": 364.88,
+      "coverage_pct": 84.4,
+      "num_events": 31,
+      "first_annotation_start": 66.08,
+      "last_annotation_end": 432.16
+    },
+    "caregiver": {
+      "covered_seconds": 340.68,
+      "coverage_pct": 78.8,
+      "num_events": 96,
+      "first_annotation_start": 65.48,
+      "last_annotation_end": 432.2
+    },
+    "total_engagement": {
+      "covered_seconds": 366.68,
+      "coverage_pct": 84.8,
+      "num_events": 127,
+      "first_annotation_start": 65.48,
+      "last_annotation_end": 432.2
+    },
+    "paradigm_phases": {
+      "has_paradigm": true,
+      "transition_start": 189.16,
+      "transition_end": 210.32,
+      "transition_duration": 21.16,
+      "sfp_start": 210.32,
+      "reunion_start": 309.36,
+      "play_duration": 189.16,
+      "sfp_duration": 99.04,
+      "reunion_duration": 122.92
+    }
+  }
+]

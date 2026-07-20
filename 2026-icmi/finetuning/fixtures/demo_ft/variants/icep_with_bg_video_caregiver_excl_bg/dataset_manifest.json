@@ -1,0 +1,38 @@
+{
+  "variant_id": "icep_with_bg_video_caregiver_excl_bg",
+  "role_mode": "caregiver",
+  "modalities": [
+    "video"
+  ],
+  "include_background": true,
+  "excluded_labels": [
+    "bg"
+  ],
+  "source_dataset": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\dataset.json",
+  "folds_file": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\folds.json",
+  "dataset_json": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\variants\\icep_with_bg_video_caregiver_excl_bg\\dataset.json",
+  "dataset_info": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\variants\\icep_with_bg_video_caregiver_excl_bg\\dataset_info.json",
+  "sample_count": 1,
+  "fold_counts": {
+    "0": {
+      "train": 0,
+      "val": 1
+    },
+    "1": {
+      "train": 1,
+      "val": 0
+    },
+    "2": {
+      "train": 1,
+      "val": 0
+    },
+    "3": {
+      "train": 1,
+      "val": 0
+    },
+    "4": {
+      "train": 1,
+      "val": 0
+    }
+  }
+}

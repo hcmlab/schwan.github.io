@@ -1,0 +1,30 @@
+### LLaMA-Factory predict config for Qwen3.5-9B
+### Usage: sed 's/fold_X/fold_N/g' this_file > /tmp/config.yaml && llamafactory-cli train /tmp/config.yaml
+
+model_name_or_path: Qwen/Qwen3.5-9B
+template: qwen3_5_nothink
+stage: sft
+
+# LoRA adapter from training
+finetuning_type: lora
+adapter_name_or_path: /mnt/swan/data/Schwan_FT/output/qwen35_9b/fold_X
+
+# Prediction mode
+do_train: false
+do_predict: true
+predict_with_generate: true
+
+# Dataset
+eval_dataset: icep_fold_X_val
+dataset_dir: /mnt/swan/data/Schwan_FT
+cutoff_len: 8192
+tokenized_path: /mnt/swan/data/Schwan_FT/tokenized/qwen35_9b_predict/fold_X
+
+# Generation
+do_sample: false
+max_new_tokens: 256
+
+# Output
+output_dir: /mnt/swan/data/Schwan_FT/output/qwen35_9b/fold_X/predictions
+per_device_eval_batch_size: 1
+bf16: true

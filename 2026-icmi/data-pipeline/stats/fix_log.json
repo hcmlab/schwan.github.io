@@ -1,0 +1,308 @@
+{
+  "timestamp": "2026-03-05T20:06:43.733846",
+  "fixed_sessions": [
+    "BEMASU01_HD_T3",
+    "BESEHE01_HD_T3",
+    "CAOKKA01_MUC_T3",
+    "CHMAMA01_HD_T3",
+    "ELFEAN01_HD_T3",
+    "JEAPBA01_HD_T3",
+    "JEAPCO01_HD_T3",
+    "JOAUUN01_HD_T3"
+  ],
+  "already_ok": [
+    "Aljuch01_MUC_T3",
+    "ANOKPE01_HD_T3",
+    "ANSEAN01_HD_T3",
+    "ANSEBE01_HD_T3",
+    "AnSeSu01_MUC_T3",
+    "BROKER01_MUC_T3",
+    "CAJARE01_MUC_T3",
+    "CoSeSi01_MUC_T3",
+    "DAJARO01_MUC_T3",
+    "ELAUGA01_MUC_T3",
+    "ELFECH01_MUC_T3",
+    "ELMASU01_HD_T3",
+    "EvSeLi01_MUC_T3",
+    "FRJUGU01_MUC_T3",
+    "JaApJo01_MUC_T3",
+    "JaSeRe01_MUC_T3",
+    "JEOKSI01_HD_T3",
+    "JIFEHE01_HD_T3",
+    "JoOkGe01_MUC_T3",
+    "Jujulu01_MUC_T3",
+    "JUMAIS01_MUC_T3",
+    "KaJaMa01_MUC_T3",
+    "KAJUHE01STERN_MUC_T3",
+    "Kamaev01_MUC_T3",
+    "LAMASY01_MUC_T3",
+    "LAOKIR01_MUC_T3",
+    "LeApMo01_MUC_T3",
+    "LESERE01_HD_T3",
+    "LIAPKA01_MUC_T3",
+    "LIDEMA01_HD_T3",
+    "LIMABE01_MUC_T3",
+    "LiNoBe01_MUC_T3",
+    "LISEUL01_HD_T3",
+    "MAAPGE01_HD_T3",
+    "MAAPKE01_HD_T3",
+    "MaAuHe01STERN_MUC_T3",
+    "MADECA01_HD_T3",
+    "MAJAJE01_HD_T3",
+    "MAJARO01_MUC_T3",
+    "MAJUUL01_HD_T3",
+    "MAMABE01_HD_T3",
+    "MAMACH01_HD_T3",
+    "MANOSI01_MUC_T3",
+    "MAOKZU01_HD_T3",
+    "MaSeCo01_MUC_T3",
+    "MASESI01_HD_T3",
+    "MEDEAN01_MUC_T3",
+    "MESEAN01_MUC_T3",
+    "minosn01_MUC_T3",
+    "MODEAN01_MUC_T3",
+    "MOJUUL01_HD_T3",
+    "NAAPCA01_HD_T3",
+    "NAAPNA01_HD_T3",
+    "NAAUMO01_HD_T3",
+    "NASEAN01_HD_T3",
+    "Niauan01_MUC_T3",
+    "NIAUIN01_HD_T3",
+    "NIAUMA01_HD_T3",
+    "Olapma01_MUC_T3",
+    "PaJaBr01_MUC_T3",
+    "PAJUJU01_HD_T3",
+    "REJACL01_MUC_T3",
+    "REMAJU01_MUC_T3",
+    "ROJUIR01_HD_T3",
+    "RONOUT01_MUC_T3",
+    "SAFEBI01_HD_T3",
+    "SAFECA01_MUC_T3",
+    "SAFEJO01_MUC_T3",
+    "SAFELI01_HD_T3",
+    "SAJARE01_HD_T3",
+    "SASEAN01_HD_T3",
+    "Saseco01_MUC_T3",
+    "SOAUMA01_MUC_T3",
+    "SOJAMO01_HD_T3",
+    "Svsean01_MUC_T3",
+    "TAFEFR01_HD_T3",
+    "TaJuPa01_MUC_T3",
+    "VEJAGE01_MUC_T3",
+    "WAJUAN01_MUC_T3"
+  ],
+  "changes": [
+    {
+      "session": "BEMASU01_HD_T3",
+      "modifications": [
+        {
+          "track": "Infant_Engagement",
+          "old_count": 22,
+          "new_count": 75,
+          "old_codes": [
+            "Idis",
+            "Isc h",
+            "Isc o"
+          ],
+          "new_codes": [
+            "Ineu",
+            "Inon",
+            "Ipos",
+            "Ipro"
+          ]
+        },
+        {
+          "track": "Other",
+          "old_count": 2,
+          "new_count": 24
+        }
+      ]
+    },
+    {
+      "session": "BESEHE01_HD_T3",
+      "modifications": [
+        {
+          "track": "Infant_Engagement",
+          "old_count": 2,
+          "new_count": 85,
+          "old_codes": [
+            "Isc h",
+            "Isc o"
+          ],
+          "new_codes": [
+            "Ineu",
+            "Inon",
+            "Ipos",
+            "Ipro"
+          ]
+        },
+        {
+          "track": "Other",
+          "old_count": 1,
+          "new_count": 3
+        }
+      ]
+    },
+    {
+      "session": "CAOKKA01_MUC_T3",
+      "modifications": [
+        {
+          "track": "Infant_Engagement",
+          "old_count": 3,
+          "new_count": 57,
+          "old_codes": [
+            "Isc o"
+          ],
+          "new_codes": [
+            "Ineu",
+            "Inon",
+            "Ipos",
+            "Ipro"
+          ]
+        },
+        {
+          "track": "Caregiver_Engagement",
+          "old_count": 0,
+          "new_count": 105
+        },
+        {
+          "track": "Paradigm_Phases",
+          "old_count": 0,
+          "new_count": 3
+        },
+        {
+          "track": "Other",
+          "old_count": 57,
+          "new_count": 6
+        }
+      ]
+    },
+    {
+      "session": "CHMAMA01_HD_T3",
+      "modifications": [
+        {
+          "track": "Infant_Engagement",
+          "old_count": 4,
+          "new_count": 79,
+          "old_codes": [
+            "Idis",
+            "Isc o"
+          ],
+          "new_codes": [
+            "Ineu",
+            "Inon",
+            "Ipos",
+            "Ipro",
+            "Iusc"
+          ]
+        },
+        {
+          "track": "Other",
+          "old_count": 2,
+          "new_count": 6
+        }
+      ]
+    },
+    {
+      "session": "ELFEAN01_HD_T3",
+      "modifications": [
+        {
+          "track": "Infant_Engagement",
+          "old_count": 14,
+          "new_count": 102,
+          "old_codes": [
+            "Idis",
+            "Isc h",
+            "Isc o"
+          ],
+          "new_codes": [
+            "Ineu",
+            "Inon",
+            "Ipos",
+            "Ipro",
+            "Iwit"
+          ]
+        },
+        {
+          "track": "Other",
+          "old_count": 4,
+          "new_count": 18
+        }
+      ]
+    },
+    {
+      "session": "JEAPBA01_HD_T3",
+      "modifications": [
+        {
+          "track": "Infant_Engagement",
+          "old_count": 1,
+          "new_count": 84,
+          "old_codes": [
+            "Isc o"
+          ],
+          "new_codes": [
+            "Ineu",
+            "Inon",
+            "Ipos",
+            "Iusc"
+          ]
+        },
+        {
+          "track": "Other",
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    {
+      "session": "JEAPCO01_HD_T3",
+      "modifications": [
+        {
+          "track": "Infant_Engagement",
+          "old_count": 2,
+          "new_count": 50,
+          "old_codes": [
+            "Isc o"
+          ],
+          "new_codes": [
+            "Ineu",
+            "Inon",
+            "Ipos",
+            "Ipro",
+            "Iusc"
+          ]
+        },
+        {
+          "track": "Other",
+          "old_count": 2,
+          "new_count": 4
+        }
+      ]
+    },
+    {
+      "session": "JOAUUN01_HD_T3",
+      "modifications": [
+        {
+          "track": "Infant_Engagement",
+          "old_count": 1,
+          "new_count": 46,
+          "old_codes": [
+            "Isc o"
+          ],
+          "new_codes": [
+            "Ineu",
+            "Inon",
+            "Ipos",
+            "Ipro",
+            "Iusc"
+          ]
+        },
+        {
+          "track": "Other",
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    }
+  ]
+}

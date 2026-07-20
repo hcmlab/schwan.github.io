@@ -1,0 +1,33 @@
+{
+  "profile_id": "workspace_fixture",
+  "model": "qwen3_vl_8b",
+  "dataset_spec_id": "icep_no_bg_video",
+  "folds_evaluated": [
+    0
+  ],
+  "global_stats": {
+    "infant": {
+      "metrics": {
+        "_MICRO_AVG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        }
+      },
+      "confusion_matrix": {}
+    },
+    "caregiver": {
+      "metrics": {
+        "_MICRO_AVG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        }
+      },
+      "confusion_matrix": {}
+    }
+  },
+  "fold_summaries": {}
+}

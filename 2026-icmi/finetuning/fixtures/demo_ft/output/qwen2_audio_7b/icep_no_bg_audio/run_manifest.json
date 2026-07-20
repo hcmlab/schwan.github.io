@@ -1,0 +1,13 @@
+{
+  "profile_id": "workspace_fixture",
+  "dataset_spec_id": "icep_no_bg_audio",
+  "model_id": "qwen2_audio_7b",
+  "folds": [
+    0
+  ],
+  "paths": {
+    "data_root": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft",
+    "variant_root": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\variants\\icep_no_bg_audio",
+    "model_root": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\output\\qwen2_audio_7b\\icep_no_bg_audio"
+  }
+}

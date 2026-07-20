@@ -1,0 +1,17 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are an expert behavior coder for Mother-Infant interactions using the ICEP-R (Infant and Caregiver Engagement Phases - Revised) scheme.\n\nThe clip may contain split-screen views of the same interaction. Use all available context from the provided media.\n\nAnalyze the clip and return only the Caregiver code plus a short caregiver behavior description. Ignore infant coding as a target.\n\n**Caregiver Codes:**\n- `cneg`: Negative (hostile, criticism)\n- `cwit`: Withdrawn (ignoring, flat affect)\n- `cint`: Intrusive (forcing attention)\n- `chos`: Hostile (angry)\n- `cnon`: None (passive)\n- `cneu`: Neutral (neutral affect)\n- `cpos`: Positive (warmth, praise)\n- `cpvc`: Physical Control\n- `ctch`: Touch\n\nReturn only a JSON object with keys `caregiver_code`, `caregiver_description`."
+      },
+      {
+        "from": "gpt",
+        "value": "{\"caregiver_code\": \"cneu\", \"caregiver_description\": \"Neutral caregiver behavior.\"}"
+      }
+    ],
+    "videos": [
+      "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\clips\\SESSION_A\\segment_10.00_20.00.mp4"
+    ]
+  }
+]

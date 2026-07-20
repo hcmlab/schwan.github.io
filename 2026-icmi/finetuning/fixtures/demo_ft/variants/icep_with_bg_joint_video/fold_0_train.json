@@ -1,0 +1,17 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are an expert behavior coder for Mother-Infant interactions using the ICEP-R (Infant and Caregiver Engagement Phases - Revised) scheme.\n\nThe clip may contain split-screen views of the same interaction. Use all available context from the provided media.\n\nAnalyze the clip and return the correct infant and caregiver codes plus short descriptions for both roles.\n\n**Infant Codes:**\n- `ineg`: Negative (distress, crying)\n- `ipro`: Protest (fussing, negative face)\n- `iwit`: Withdrawn (averting gaze, pulling away)\n- `inon`: None (no interaction)\n- `ineu`: Neutral (neutral face, looking at partner)\n- `ipos`: Positive (smiling, laughing)\n- `islp`: Sleeping\n- `iusc`: Unscorable\n- `bg`: Background (no codable interaction)\n\n**Caregiver Codes:**\n- `cneg`: Negative (hostile, criticism)\n- `cwit`: Withdrawn (ignoring, flat affect)\n- `cint`: Intrusive (forcing attention)\n- `chos`: Hostile (angry)\n- `cnon`: None (passive)\n- `cneu`: Neutral (neutral affect)\n- `cpos`: Positive (warmth, praise)\n- `cpvc`: Physical Control\n- `ctch`: Touch\n- `bg`: Background (no codable interaction)\n\nReturn only a JSON object with keys `infant_code`, `caregiver_code`, `infant_description`, `caregiver_description`."
+      },
+      {
+        "from": "gpt",
+        "value": "{\"infant_code\": \"bg\", \"caregiver_code\": \"bg\", \"infant_description\": \"No codable interaction.\", \"caregiver_description\": \"No codable interaction.\"}"
+      }
+    ],
+    "videos": [
+      "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\clips\\SESSION_B\\bg_00.00_10.00.mp4"
+    ]
+  }
+]

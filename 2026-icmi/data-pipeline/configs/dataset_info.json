@@ -1,0 +1,50 @@
+{
+    "schwan_icep_sft_train": {
+        "file_name": "schwan_icep_sft_train.json",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "conversations",
+            "videos": "videos"
+        }
+    },
+    "schwan_icep_sft_val": {
+        "file_name": "schwan_icep_sft_val.json",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "conversations",
+            "videos": "videos"
+        }
+    },
+    "schwan_icep_sft_test": {
+        "file_name": "schwan_icep_sft_test.json",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "conversations",
+            "videos": "videos"
+        }
+    },
+    "schwan_icep_labelpredictor_train": {
+        "file_name": "schwan_icep_labelpredictor_train.json",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "conversations",
+            "videos": "videos"
+        }
+    },
+    "schwan_icep_labelpredictor_val": {
+        "file_name": "schwan_icep_labelpredictor_val.json",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "conversations",
+            "videos": "videos"
+        }
+    },
+    "schwan_icep_labelpredictor_test": {
+        "file_name": "schwan_icep_labelpredictor_test.json",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "conversations",
+            "videos": "videos"
+        }
+    }
+}

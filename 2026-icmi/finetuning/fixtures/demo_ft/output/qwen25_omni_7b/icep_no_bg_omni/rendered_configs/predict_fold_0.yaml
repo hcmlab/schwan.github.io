@@ -1,0 +1,17 @@
+model_name_or_path: Qwen/Qwen2.5-Omni-7B
+template: qwen2_omni
+trust_remote_code: true
+cutoff_len: 8192
+do_sample: false
+max_new_tokens: 256
+per_device_eval_batch_size: 1
+bf16: true
+stage: sft
+finetuning_type: lora
+adapter_name_or_path: D:\GitHub\swan\ft\fixtures\demo_ft\output\qwen25_omni_7b\icep_no_bg_omni\fold_0
+do_train: false
+do_predict: true
+predict_with_generate: true
+eval_dataset: icep_no_bg_omni_fold_0_val
+dataset_dir: D:\GitHub\swan\ft\fixtures\demo_ft\variants\icep_no_bg_omni
+output_dir: D:\GitHub\swan\ft\fixtures\demo_ft\output\qwen25_omni_7b\icep_no_bg_omni\fold_0\predictions

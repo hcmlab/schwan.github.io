@@ -1,0 +1,34 @@
+{
+  "role_mode": "caregiver",
+  "include_background": false,
+  "excluded_labels": [
+    "bg"
+  ],
+  "allowed_labels": {
+    "infant": [
+      "ineg",
+      "ipro",
+      "iwit",
+      "inon",
+      "ineu",
+      "ipos",
+      "islp",
+      "iusc"
+    ],
+    "caregiver": [
+      "cneg",
+      "cwit",
+      "cint",
+      "chos",
+      "cnon",
+      "cneu",
+      "cpos",
+      "cpvc",
+      "ctch"
+    ]
+  },
+  "schema_fields": [
+    "caregiver_code",
+    "caregiver_description"
+  ]
+}

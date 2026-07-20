@@ -1,0 +1,25 @@
+{
+  "launcher": "slurm",
+  "session_root": "/mnt/swan/data/Schwan_T3_Clean",
+  "data_root": "/mnt/swan/data/Schwan_FT",
+  "output_root": "/mnt/swan/data/Schwan_FT/output",
+  "cache_root": "/mnt/data/.cache/huggingface/withanda",
+  "temp_root": "/mnt/data/tmp/swan",
+  "logs_root": "/mnt/swan/data/Schwan_FT/logs/slurm_a40",
+  "env_name": "swan2",
+  "python_bin": "python",
+  "conda_activate": "/mnt/data/miniforge3/etc/profile.d/conda.sh",
+  "local_gpus": 1,
+  "slurm": {
+    "partition": "sharding",
+    "account": null,
+    "qos": null,
+    "gres": "gpu:a40:1",
+    "cpus_per_task": 8,
+    "mem": "64G",
+    "time": "7-00:00:00",
+    "array_parallelism": 3,
+    "python_bin": "python",
+    "extra_sbatch_args": []
+  }
+}

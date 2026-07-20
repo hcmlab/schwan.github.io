@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automated Behavioural Analysis in Parent-Infant Interactions using MLLMs</title>
+<meta name="description" content="ICMI 2026 project page: automated ICEP-R behavioral coding of parent-infant interaction with fine-tuned multimodal LLMs.">
+<style>
+  :root{
+    --bg:#ffffff; --bg-soft:#f6f7f9; --text:#1a1d21; --text-soft:#5b6270;
+    --border:#e3e6eb; --accent:#3457d5; --accent-soft:#eef1fd; --card:#ffffff;
+    --code-bg:#f2f3f6;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#14161a; --bg-soft:#1b1e24; --text:#e8eaed; --text-soft:#a2a8b4;
+      --border:#2c303a; --accent:#8ba4ff; --accent-soft:#1f2436; --card:#1b1e24;
+      --code-bg:#20232b;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#14161a; --bg-soft:#1b1e24; --text:#e8eaed; --text-soft:#a2a8b4;
+    --border:#2c303a; --accent:#8ba4ff; --accent-soft:#1f2436; --card:#1b1e24;
+    --code-bg:#20232b;
+  }
+  :root[data-theme="light"]{
+    --bg:#ffffff; --bg-soft:#f6f7f9; --text:#1a1d21; --text-soft:#5b6270;
+    --border:#e3e6eb; --accent:#3457d5; --accent-soft:#eef1fd; --card:#ffffff;
+    --code-bg:#f2f3f6;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  .wrap{max-width:920px; margin:0 auto; padding:0 24px;}
+  header.hero{
+    background:linear-gradient(180deg, var(--accent-soft), var(--bg) 80%);
+    border-bottom:1px solid var(--border);
+    padding:56px 0 40px;
+  }
+  h1{font-size:1.75rem; line-height:1.3; margin:0 0 18px; font-weight:700;}
+  .authors{font-size:0.98rem; color:var(--text-soft); margin:0 0 6px;}
+  .authors a{color:var(--text); text-decoration:none; border-bottom:1px dotted var(--text-soft);}
+  .affils{font-size:0.85rem; color:var(--text-soft); margin:0 0 22px;}
+  .venue{font-size:0.85rem; color:var(--text-soft); margin:0 0 22px; font-style:italic;}
+  .links{display:flex; flex-wrap:wrap; gap:10px;}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:9px 16px; border-radius:8px; border:1px solid var(--border);
+    background:var(--card); color:var(--text); text-decoration:none; font-size:0.9rem;
+    font-weight:600; transition:transform .12s ease, border-color .12s ease;
+  }
+  .btn:hover{border-color:var(--accent); transform:translateY(-1px);}
+  .btn.primary{background:var(--accent); color:#fff; border-color:var(--accent);}
+  main{padding:40px 0 80px;}
+  section{margin-bottom:44px;}
+  h2{font-size:1.25rem; margin:0 0 14px; padding-bottom:8px; border-bottom:1px solid var(--border);}
+  h3{font-size:1.05rem; margin:24px 0 10px;}
+  p{color:var(--text); margin:0 0 14px;}
+  .lede{font-size:1.02rem; color:var(--text-soft);}
+  .figure{
+    background:var(--bg-soft); border:1px solid var(--border); border-radius:12px;
+    padding:16px; margin:18px 0;
+  }
+  .figure img{width:100%; height:auto; border-radius:6px; display:block;}
+  .figure figcaption{font-size:0.85rem; color:var(--text-soft); margin-top:10px;}
+  .fig-grid{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+  @media (max-width:640px){.fig-grid{grid-template-columns:1fr;}}
+  table{width:100%; border-collapse:collapse; font-size:0.88rem; margin:14px 0;}
+  th,td{text-align:left; padding:8px 10px; border-bottom:1px solid var(--border);}
+  th{color:var(--text-soft); font-weight:600;}
+  .pipeline{
+    display:flex; flex-wrap:wrap; gap:10px; align-items:stretch; margin:18px 0;
+  }
+  .pipe-step{
+    flex:1 1 150px; background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:14px; font-size:0.85rem;
+  }
+  .pipe-step .k{display:block; font-size:0.72rem; text-transform:uppercase; letter-spacing:.04em; color:var(--accent); font-weight:700; margin-bottom:6px;}
+  .pipe-arrow{align-self:center; color:var(--text-soft); font-size:1.2rem; padding:0 2px;}
+  @media (max-width:640px){.pipe-arrow{transform:rotate(90deg);}}
+  .stat-row{display:flex; flex-wrap:wrap; gap:14px; margin:18px 0;}
+  .stat{
+    flex:1 1 140px; background:var(--card); border:1px solid var(--border); border-radius:10px;
+    padding:14px 16px;
+  }
+  .stat .n{font-size:1.4rem; font-weight:700; color:var(--accent);}
+  .stat .l{font-size:0.8rem; color:var(--text-soft);}
+  code, pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:0.85rem;}
+  pre{background:var(--code-bg); border:1px solid var(--border); border-radius:8px; padding:14px; overflow-x:auto;}
+  .callout{
+    background:var(--accent-soft); border:1px solid var(--border); border-left:3px solid var(--accent);
+    border-radius:8px; padding:14px 16px; font-size:0.9rem;
+  }
+  .callout.warn{border-left-color:#c0392b; background:color-mix(in srgb, #c0392b 8%, var(--bg-soft));}
+  ul{padding-left:20px; margin:0 0 14px;}
+  li{margin-bottom:6px;}
+  footer{border-top:1px solid var(--border); padding:26px 0; font-size:0.82rem; color:var(--text-soft);}
+  .badge{display:inline-block; font-size:0.72rem; padding:3px 8px; border-radius:99px; background:var(--bg-soft); border:1px solid var(--border); color:var(--text-soft); margin-left:8px;}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p style="margin:0 0 14px;"><a href="../" style="color:var(--text-soft); text-decoration:none; font-size:0.85rem;">&larr; SCHWAN project</a></p>
+    <h1>Automated Behavioural Analysis in Parent-Infant Interactions using Multimodal Large Language Models</h1>
+    <p class="authors">
+      Daksitha Withanage Don*, Tobias Hallmen*, Mitho Müller, Lea Teresa Kaubisch, Yaren Günay,
+      Linda Stürmlinger, Beate Ditzen, Anna-Lena Zietlow, Johannes C. Ehrenthal,
+      Cristina Luna-Jiménez, Corinna Reck†, Elisabeth André†
+    </p>
+    <p class="affils">University of Augsburg · LMU Munich · Heidelberg University Hospital · University of Mannheim · University of Cologne<br>
+      *Equal contribution &nbsp;·&nbsp; †Shared senior authorship</p>
+    <p class="venue">ICMI '26 — International Conference on Multimodal Interaction, Napoli, Italy, October 05–09, 2026</p>
+    <div class="links">
+      <a class="btn primary" href="paper.pdf">📄 Paper (PDF)</a>
+      <a class="btn" href="https://doi.org/10.1145/3776574.3831216">🔗 DOI</a>
+      <a class="btn" href="https://github.com/Daksitha/schwan-finetune">💻 Code on GitHub</a>
+      <a class="btn" href="#bibtex">❝❞ Cite</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section>
+    <h2>Abstract</h2>
+    <p class="lede">
+      Fine-grained behavioral coding of parent–infant interaction is central to developmental and clinical
+      research, but manual annotation with schemes such as the Infant and Caregiver Engagement
+      Phases–Revised (ICEP-R) is time-consuming, costly, and difficult to scale. We investigate whether
+      recent multimodal foundation models and Multimodal Large Language Models (MLLMs) can support
+      automated ICEP-R coding in the Face-to-Face Still-Face (FFSF) paradigm. We present a unified
+      pipeline for video-only, audio-only, and audiovisual prediction, and compare three transfer routes:
+      (1) frozen-feature downstream classification baselines, (2) zero-shot prompting, and (3)
+      parameter-efficient fine-tuning of multimodal models. Across 87 FFSF sessions (~9-month-old infants),
+      multimodal fusion consistently outperforms single-modality approaches, and fine-tuned
+      <strong>Qwen2.5-Omni-7B</strong> achieves the best results — weighted F1 of <strong>0.657</strong> (infant)
+      and <strong>0.692</strong> (caregiver) — clearly outperforming zero-shot MLLMs and strong frozen-feature
+      (DINOv3 + Wav2Vec 2.0) baselines. Zero-shot MLLMs recover only coarse behavioral structure, indicating
+      that domain adaptation is essential for this clinically specific task.
+    </p>
+  </section>
+
+  <section>
+    <h2>Pipeline Overview</h2>
+    <p>Three transfer routes are compared under a shared clip inventory, split policy, and evaluation protocol.</p>
+    <div class="pipeline">
+      <div class="pipe-step"><span class="k">Input</span>87 FFSF sessions · 10,293 audiovisual clips · infant &amp; caregiver camera views</div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-step"><span class="k">1 · Frozen-feature</span>DINOv3 (vision) + Wav2Vec 2.0 (audio) embeddings → logistic regression / MLP</div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-step"><span class="k">2 · Zero-shot</span>Qwen3-VL, Molmo2, Qwen2-Audio, Qwen2.5-Omni prompted with the ICEP-R schema</div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-step"><span class="k">3 · LoRA fine-tuning</span>Qwen2.5-Omni, Qwen2-Audio, Qwen3-VL, Qwen3.5-9B, GLM-4.6-Flash via LLaMA-Factory</div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-step"><span class="k">Output</span>Structured JSON: infant_code / caregiver_code + short cue-level rationale</div>
+    </div>
+    <div class="stat-row">
+      <div class="stat"><div class="n">87</div><div class="l">FFSF sessions (~9 months old)</div></div>
+      <div class="stat"><div class="n">10,293</div><div class="l">audio-visual clips</div></div>
+      <div class="stat"><div class="n">9,267</div><div class="l">active (no-background) clips</div></div>
+      <div class="stat"><div class="n">7,342 / 1,925</div><div class="l">train-dev / held-out test (session-level split)</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Key Results</h2>
+    <p>Best weighted F1 by transfer route (audiovisual, joint prediction unless noted):</p>
+    <table>
+      <thead><tr><th>Route</th><th>Model</th><th>Infant W-F1</th><th>Caregiver W-F1</th></tr></thead>
+      <tbody>
+        <tr><td>Zero-shot</td><td>Qwen2.5-Omni-7B (best infant) / Molmo2 (best caregiver)</td><td>0.272</td><td>0.195</td></tr>
+        <tr><td>Frozen-feature</td><td>DINOv3 + Wav2Vec2 (fused)</td><td>0.569</td><td>0.631</td></tr>
+        <tr><td>Fine-tuned (joint)</td><td><strong>Qwen2.5-Omni-7B</strong></td><td><strong>0.657</strong></td><td><strong>0.692</strong></td></tr>
+        <tr><td>Fine-tuned (joint)</td><td>Qwen2-Audio-7B</td><td>0.607</td><td>0.713</td></tr>
+      </tbody>
+    </table>
+    <div class="fig-grid">
+      <figure class="figure">
+        <img src="assets/fig5_infant_f1_vs_support.png" alt="Per-class F1 vs. class support for infant labels">
+        <figcaption>Per-class F1 vs. class support — infant labels. Gains concentrate in well-represented classes; rare states remain difficult across all methods.</figcaption>
+      </figure>
+      <figure class="figure">
+        <img src="assets/fig6_caregiver_f1_vs_support.png" alt="Per-class F1 vs. class support for caregiver labels">
+        <figcaption>Per-class F1 vs. class support — caregiver labels.</figcaption>
+      </figure>
+    </div>
+    <p>
+      Fine-tuning clearly outperforms both zero-shot prompting and frozen-feature baselines, with the
+      largest gains on moderately-supported classes. The main remaining bottleneck is the long tail of
+      rare engagement states (e.g. infant <code>iusc</code>, caregiver <code>cint</code>/<code>cnon</code>),
+      not an absence of usable multimodal signal. Full per-class analysis, confusion matrices, and
+      qualitative rationale examples are in the paper.
+    </p>
+  </section>
+
+  <section>
+    <h2>Codebase</h2>
+    <p>
+      This repository contains the full pipeline used in the paper: data preparation, LoRA fine-tuning
+      with LLaMA-Factory, zero-shot annotation generation, frozen-feature baselines, and evaluation.
+    </p>
+    <ul>
+      <li><code>data-pipeline/</code> — session discovery, manifest building, LLaMA-Factory dataset construction, zero-shot annotation generation (Molmo2, Qwen2-Audio, Qwen2.5-Omni) and ICEP-R prompt/coding guideline documents.</li>
+      <li><code>finetuning/</code> — the <code>swan_ft</code> package: profile-driven CLI for dataset building, cross-validation training, prediction and reporting; frozen-feature (DINOv3 / Wav2Vec 2.0) baselines; SLURM job scripts; model/dataset/profile configs for every model family in the paper.</li>
+    </ul>
+    <h3>Quickstart</h3>
+    <pre>cd finetuning
+pip install -r requirements.txt
+
+# build a dataset variant, fine-tune, predict, and report — all profile-driven
+python -m swan_ft dataset build   --profile vm_h100 --dataset-spec icep_no_bg_infant_video
+python -m swan_ft train cv        --profile vm_h100 --dataset-spec icep_no_bg_infant_video --model qwen25_vl_7b
+python -m swan_ft predict cv      --profile vm_h100 --dataset-spec icep_no_bg_infant_video --model qwen25_vl_7b
+python -m swan_ft report cv       --profile vm_h100 --dataset-spec icep_no_bg_infant_video --model qwen25_vl_7b</pre>
+    <p>See <code>finetuning/README.md</code> and <code>data-pipeline/README.md</code> for full setup, including
+      how to configure a local <code>.env</code> (copy from the provided <code>.env.example</code> files —
+      never commit real credentials or a filled-in <code>.env</code>).</p>
+    <div class="callout warn">
+      <strong>Data &amp; privacy.</strong> This release contains code and configuration only. The underlying
+      parent–infant audio-video recordings are privacy-sensitive clinical research data collected under
+      informed consent and are <strong>not</strong> included or redistributed here.
+    </div>
+  </section>
+
+  <section>
+    <h2 id="bibtex">Citation</h2>
+    <pre>@inproceedings{withanagedon2026icep,
+  title     = {Automated Behavioural Analysis in Parent-Infant Interactions using Multimodal-Large-Language Models},
+  author    = {Withanage Don, Daksitha and Hallmen, Tobias and M\"uller, Mitho and Kaubisch, Lea Teresa
+               and G\"unay, Yaren and St\"urmlinger, Linda and Ditzen, Beate and Zietlow, Anna-Lena
+               and Ehrenthal, Johannes C. and Luna-Jim\'enez, Cristina and Reck, Corinna and Andr\'e, Elisabeth},
+  booktitle = {Proceedings of the 28th International Conference on Multimodal Interaction (ICMI '26)},
+  year      = {2026},
+  address   = {Napoli, Italy},
+  publisher = {ACM},
+  doi       = {10.1145/3776574.3831216}
+}</pre>
+  </section>
+
+  <section>
+    <h2>Funding &amp; Responsible Use</h2>
+    <p>
+      Funded by the German Research Foundation (DFG) within the SCHWAN Project (project number: 490909448).
+      The systems described are research aids for expert-in-the-loop annotation, not diagnostic tools —
+      they should not replace clinical judgement, and deployment outside the training distribution
+      (different ages, sites, languages, or paradigms) needs additional validation. Fine-tuned LoRA
+      adapters can memorise training examples and are susceptible to membership-inference and
+      model-inversion attacks; any release of trained model weights would require institutional
+      data-protection review.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    Code licensed under GPL-3.0 (see <code>LICENSE</code>). Paper licensed under
+    CC BY-NC-ND 4.0, © 2026 the authors. <span class="badge">ICMI '26</span>
+  </div>
+</footer>
+
+</body>
+</html>

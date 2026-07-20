@@ -1,0 +1,46 @@
+### LLaMA-Factory LoRA config for Qwen3.5-9B (natively multimodal)
+### Usage: sed 's/fold_X/fold_N/g' this_file > /tmp/config.yaml && llamafactory-cli train /tmp/config.yaml
+
+model_name_or_path: Qwen/Qwen3.5-9B
+template: qwen3_5_nothink
+stage: sft
+do_train: true
+
+# LoRA
+finetuning_type: lora
+lora_target: all
+lora_rank: 64
+lora_alpha: 128
+lora_dropout: 0.05
+
+# Dataset
+dataset: icep_fold_X_train
+eval_dataset: icep_fold_X_val
+dataset_dir: /mnt/swan/data/Schwan_FT
+cutoff_len: 8192
+tokenized_path: /mnt/swan/data/Schwan_FT/tokenized/qwen35_9b/fold_X
+
+# Quantization (remove for A40 48GB)
+quantization_bit: 4
+quantization_method: bitsandbytes
+
+# Training
+per_device_train_batch_size: 1
+per_device_eval_batch_size: 1
+gradient_accumulation_steps: 16
+learning_rate: 5.0e-5
+num_train_epochs: 5
+lr_scheduler_type: cosine
+warmup_ratio: 0.03
+bf16: true
+
+# Logging & saving
+output_dir: /mnt/swan/data/Schwan_FT/output/qwen35_9b/fold_X
+logging_steps: 10
+save_strategy: epoch
+save_total_limit: 2
+
+# Evaluation & early stopping
+eval_strategy: epoch
+load_best_model_at_end: true
+save_on_each_node: false

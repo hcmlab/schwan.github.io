@@ -1,0 +1,17 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are an expert behavior coder for Mother-Infant interactions using the ICEP-R (Infant and Caregiver Engagement Phases - Revised) scheme.\n\nYour task is to analyze the interaction clip and provide:\n1. A detailed description of the Infant's behavior.\n2. A detailed description of the Caregiver's behavior.\n3. The correct ICEP-R code for the Infant.\n4. The correct ICEP-R code for the Caregiver.\n\nUse only the labels listed below.\n\n**Infant Codes:**\n- `ineg`: Negative (distress, crying)\n- `ipro`: Protest (fussing, negative face)\n- `iwit`: Withdrawn (averting gaze, pulling away)\n- `inon`: None (no interaction)\n- `ineu`: Neutral (neutral face, looking at partner)\n- `ipos`: Positive (smiling, laughing)\n- `islp`: Sleeping\n- `iusc`: Unscorable\n\n**Caregiver Codes:**\n- `cneg`: Negative (hostile, criticism)\n- `cwit`: Withdrawn (ignoring, flat affect)\n- `cint`: Intrusive (forcing attention)\n- `chos`: Hostile (angry)\n- `cnon`: None (passive)\n- `cneu`: Neutral (neutral affect)\n- `cpos`: Positive (warmth, praise)\n- `cpvc`: Physical Control\n- `ctch`: Touch\n\nReturn only a JSON object with keys `infant_code`, `caregiver_code`, `infant_description`, and `caregiver_description`."
+      },
+      {
+        "from": "gpt",
+        "value": "{\"infant_code\": \"ineu\", \"caregiver_code\": \"cneu\", \"infant_description\": \"Neutral infant behavior.\", \"caregiver_description\": \"Neutral caregiver behavior.\"}"
+      }
+    ],
+    "videos": [
+      "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\clips\\SESSION_A\\segment_10.00_20.00.mp4"
+    ]
+  }
+]

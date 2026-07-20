@@ -1,0 +1,13 @@
+{
+  "launcher": "local",
+  "session_root": "${SWAN_VM_H100_SESSION_ROOT}",
+  "data_root": "${SWAN_VM_H100_DATA_ROOT}",
+  "output_root": "${SWAN_VM_H100_OUTPUT_ROOT}",
+  "cache_root": "${SWAN_VM_H100_CACHE_ROOT}",
+  "temp_root": "${SWAN_VM_H100_TEMP_ROOT}",
+  "logs_root": "${SWAN_VM_H100_LOGS_ROOT}",
+  "env_name": "swan",
+  "python_bin": "python",
+  "conda_activate": null,
+  "local_gpus": 1
+}

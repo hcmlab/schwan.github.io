@@ -1,0 +1,14 @@
+{
+  "launcher": "local",
+  "work_root": "fixtures/demo_ft",
+  "session_root": null,
+  "data_root": "fixtures/demo_ft",
+  "output_root": "fixtures/demo_ft/output",
+  "cache_root": "fixtures/demo_ft/cache",
+  "temp_root": "fixtures/demo_ft/tmp",
+  "logs_root": "fixtures/demo_ft/output/logs",
+  "env_name": "swan",
+  "python_bin": "python",
+  "conda_activate": null,
+  "local_gpus": 1
+}

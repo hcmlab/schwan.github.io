@@ -1,0 +1,42 @@
+### model
+model_name_or_path: Qwen/Qwen2.5-Omni-7B
+template: qwen2_omni
+trust_remote_code: true
+flash_attn: fa2
+
+### dataset
+dataset: schwan_icep_sft_train
+eval_dataset: schwan_icep_sft_val
+cutoff_len: 4096
+preprocessing_num_workers: 8
+video_maxlen: 64
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_target: all
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.05
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 2.0e-5
+num_train_epochs: 3
+lr_scheduler_type: cosine
+warmup_steps: 250
+bf16: true
+
+### eval
+val_size: 0
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 500
+
+### output
+logging_steps: 10
+save_steps: 500
+overwrite_output_dir: true
+report_to: wandb

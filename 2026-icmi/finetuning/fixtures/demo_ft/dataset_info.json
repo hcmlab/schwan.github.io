@@ -1,0 +1,10 @@
+{
+  "icep_fold_0_train": {
+    "file_name": "fold_0_train.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "videos": "videos"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "total_sessions": 87,
+  "total_annotations": 11563,
+  "code_counts": {
+    "Cpvc": 2872,
+    "Inon": 1996,
+    "Cneu": 1816,
+    "Cpos": 1705,
+    "Ineu": 1669,
+    "Ipro": 475,
+    "Ipos": 460,
+    "no_annotation": 364,
+    "Iusc": 60,
+    "Cusc": 57,
+    "Cint": 47,
+    "Cnon": 41,
+    "Iwit": 1
+  },
+  "code_labels": {
+    "no_annotation": "No Annotation",
+    "Cpvc": "Social Monitor / Positive Vocs",
+    "Cneu": "Social Monitor / No Vocs or Neutral Vocs",
+    "Cpos": "Social Positive Engagement",
+    "Cint": "Intrusive",
+    "Cnon": "Non-Infant Focused Engagement",
+    "Inon": "Object/Environment Engagement",
+    "Ineu": "Social Monitor",
+    "Ipos": "Social Positive Engagement",
+    "Ipro": "Protest",
+    "Iusc": "Unscorable",
+    "Cusc": "Unscorable",
+    "Iwit": "Withdrawn"
+  },
+  "track_counts": {
+    "Caregiver_Engagement": 6781,
+    "Infant_Engagement": 4782
+  },
+  "avg_annotations_per_session": 132.9,
+  "code_avg_duration_seconds": {
+    "Cpvc": 3.65,
+    "Inon": 10.29,
+    "Cneu": 7.75,
+    "Cpos": 2.3,
+    "Ineu": 2.46,
+    "Ipro": 10.27,
+    "Ipos": 2.49,
+    "no_annotation": 61.79,
+    "Iusc": 2.31,
+    "Cusc": 4.12,
+    "Cint": 3.34,
+    "Cnon": 2.93,
+    "Iwit": 6.87
+  }
+}

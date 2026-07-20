@@ -1,0 +1,16 @@
+{
+  "modalities": ["video", "audio"],
+  "role_mode": "joint",
+  "include_background": false,
+  "prompt_template": "icep_joint_no_bg",
+  "base_dataset_file": "dataset.json",
+  "base_dataset_info_file": "dataset_info.json",
+  "base_folds_file": "folds.json",
+  "dataset_subdir": "icep_no_bg_omni",
+  "clip_subdir": "clips",
+  "audio_subdir": "audio_clips",
+  "reuse_video_container_for_audio": true,
+  "reuse_existing_clips": true,
+  "build_from_existing_root": true,
+  "excluded_labels": ["bg"]
+}

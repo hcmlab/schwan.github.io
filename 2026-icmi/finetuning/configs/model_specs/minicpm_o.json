@@ -1,0 +1,24 @@
+{
+  "base_model": "OpenBMB/MiniCPM-o-2_6",
+  "template": "minicpm_o",
+  "modality": "omni",
+  "output_name": "minicpm_o",
+  "trust_remote_code": true,
+  "allow_quantization": true,
+  "h100_full_precision_default": true,
+  "train_defaults": {
+    "do_eval": true,
+    "eval_strategy": "steps",
+    "eval_steps": 100,
+    "save_strategy": "steps",
+    "save_steps": 100,
+    "load_best_model_at_end": true,
+    "metric_for_best_model": "eval_loss",
+    "greater_is_better": false,
+    "early_stopping_steps": 5,
+    "save_total_limit": 2
+  },
+  "predict_defaults": {},
+  "extra_config": {},
+  "family": "vision_minicpm"
+}

@@ -1,0 +1,27 @@
+# Fine-tuning pipeline for ICEP-R video coding
+# Install: pip install -r requirements.txt
+# Requires: Python 3.11+, CUDA-capable GPU
+
+# -- Data preparation (merge_cameras.py, prepare_dataset.py, create_folds.py) --
+# Only needs ffmpeg on PATH (no Python deps beyond stdlib)
+
+# -- Training (LLaMA-Factory) --
+llamafactory @ git+https://github.com/hiyouga/LLaMA-Factory.git
+torch>=2.4.0
+transformers>=4.46.0
+peft>=0.13.0
+accelerate>=1.0.0
+trl>=0.12.0
+qwen-vl-utils>=0.0.8
+torchcodec
+PyYAML>=6.0
+
+# -- Evaluation (predict_with_generate requires these) --
+jieba
+nltk
+rouge_chinese
+
+# -- Baseline feature extraction (DINOv3 + Wav2Vec2 → classifier) --
+# Installed via pip --target in slurm/baseline.sh (not into the shared env)
+# scikit-learn>=1.3.0
+# timm>=1.0.0

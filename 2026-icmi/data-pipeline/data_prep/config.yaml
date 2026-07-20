@@ -1,0 +1,34 @@
+# ──────────────────────────────────────────────────────────────
+# Data Prep Pipeline — Centralised Configuration
+# ──────────────────────────────────────────────────────────────
+# Profile is auto-detected from the OS (Windows → windows, Linux → ubuntu).
+# Override with env var:  DATA_PREP_PROFILE=ubuntu
+
+profiles:
+  windows:
+    raw_data_dir: "X:/data/Schwan_T3_Clean"
+    finetune_dir: "X:/data/Schwan_T3_FineTune"
+  ubuntu:
+    raw_data_dir: "/mnt/dataset-swan/data/Schwan_T3_Clean"
+    finetune_dir: "/mnt/dataset-swan/data/Schwan_T3_FineTune"
+
+# 01_extract_chunks
+extraction:
+  max_workers: 5
+  hw_accel: "cuda"
+  video_codec: "h264_nvenc"
+  video_preset: "p4"
+
+# 00_prepare_annotations
+annotations:
+  context_buffer_sec: 3.0
+  min_gap_duration: 1.0
+  target_tracks:
+    - "Infant_Engagement"
+    - "Caregiver_Engagement"
+
+# 03_split_data
+splitting:
+  train_ratio: 0.80
+  val_ratio: 0.10
+  seed: 42

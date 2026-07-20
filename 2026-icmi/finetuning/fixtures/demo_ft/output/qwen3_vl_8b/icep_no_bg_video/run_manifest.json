@@ -1,0 +1,13 @@
+{
+  "profile_id": "workspace_fixture",
+  "dataset_spec_id": "icep_no_bg_video",
+  "model_id": "qwen3_vl_8b",
+  "folds": [
+    0
+  ],
+  "paths": {
+    "data_root": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft",
+    "variant_root": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\variants\\icep_no_bg_video",
+    "model_root": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\output\\qwen3_vl_8b\\icep_no_bg_video"
+  }
+}

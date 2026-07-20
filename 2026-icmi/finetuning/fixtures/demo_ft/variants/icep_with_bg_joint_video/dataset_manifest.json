@@ -1,0 +1,36 @@
+{
+  "variant_id": "icep_with_bg_joint_video",
+  "role_mode": "joint",
+  "modalities": [
+    "video"
+  ],
+  "include_background": true,
+  "excluded_labels": [],
+  "source_dataset": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\dataset.json",
+  "folds_file": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\folds.json",
+  "dataset_json": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\variants\\icep_with_bg_joint_video\\dataset.json",
+  "dataset_info": "D:\\GitHub\\swan\\ft\\fixtures\\demo_ft\\variants\\icep_with_bg_joint_video\\dataset_info.json",
+  "sample_count": 2,
+  "fold_counts": {
+    "0": {
+      "train": 1,
+      "val": 1
+    },
+    "1": {
+      "train": 1,
+      "val": 1
+    },
+    "2": {
+      "train": 2,
+      "val": 0
+    },
+    "3": {
+      "train": 2,
+      "val": 0
+    },
+    "4": {
+      "train": 2,
+      "val": 0
+    }
+  }
+}

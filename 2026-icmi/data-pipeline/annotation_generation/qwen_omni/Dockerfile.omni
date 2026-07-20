@@ -1,0 +1,35 @@
+FROM nvcr.io/nvidia/pytorch:25.12-py3
+
+# Install system dependencies for OpenCV and audio/video handling
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    libsm6 \
+    libxext6 \
+    git \
+    libsndfile1 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Upgrade pip
+RUN pip install --upgrade pip
+
+# Install Python dependencies per Qwen2.5-Omni requirements
+RUN pip install --no-cache-dir \
+    torch \
+    pillow \
+    accelerate \
+    scipy \
+    sentencepiece \
+    opencv-python-headless \
+    decord2 \
+    librosa \
+    soundfile \
+    python-dotenv
+
+# Install Qwen2.5-Omni specific transformers branch and utils
+RUN pip install git+https://github.com/huggingface/transformers@v4.51.3-Qwen2.5-Omni-preview
+RUN pip install --no-cache-dir qwen-omni-utils -U
+
+# Set working directory
+WORKDIR /workspace/schwan
+
+CMD ["/bin/bash"]

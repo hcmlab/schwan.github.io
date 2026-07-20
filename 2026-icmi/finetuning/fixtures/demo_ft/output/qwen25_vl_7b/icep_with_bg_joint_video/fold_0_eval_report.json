@@ -1,0 +1,75 @@
+{
+  "fold": 0,
+  "profile_id": "workspace_fixture",
+  "model_id": "qwen25_vl_7b",
+  "dataset_spec_id": "icep_with_bg_joint_video",
+  "role_mode": "joint",
+  "val_samples": 1,
+  "parse_errors": 0,
+  "invalid_predictions": 0,
+  "session_stats": {
+    "infant": {
+      "metrics": {
+        "ineu": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 1
+        },
+        "_MICRO_AVG": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 1
+        },
+        "_WEIGHTED_AVG": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "ineu": {
+          "ineu": 1
+        }
+      }
+    },
+    "caregiver": {
+      "metrics": {
+        "cneu": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 1
+        },
+        "_MICRO_AVG": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 1
+        },
+        "_WEIGHTED_AVG": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "cneu": {
+          "cneu": 1
+        }
+      }
+    }
+  },
+  "predictions": [
+    {
+      "raw_output": "{\"infant_code\":\"ineu\",\"caregiver_code\":\"cneu\",\"infant_description\":\"Neutral infant behavior.\",\"caregiver_description\":\"Neutral caregiver behavior.\"}",
+      "gt_infant": "ineu",
+      "pred_infant": "ineu",
+      "gt_caregiver": "cneu",
+      "pred_caregiver": "cneu"
+    }
+  ]
+}

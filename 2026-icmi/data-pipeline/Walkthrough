@@ -1,0 +1,56 @@
+# Data Preparation Walkthrough
+
+## Work Completed
+
+### 1. Annotation Preparation (`00_prepare_annotations.py`)
+
+- Parses `.json` annotations from 87 sessions in `X:\data\Schwan_T3_Clean`
+- Enriches each annotation with ICEP label, full description, video/audio cues
+- Adds ±3s buffer and gap segments for unannotated regions
+- Outputs to `X:\data\Schwan_T3_FineTune\{session}\` — **11,563 annotations total**
+
+### 2. Annotation Statistics (`annotation_stats.py`)
+
+Generated distribution analysis across all sessions:
+
+- Top codes: `Cpvc` (24.8%), `Inon` (17.3%), `Cneu` (15.7%), `Cpos` (14.7%)
+- Rare codes: `Iwit` (1 instance), `Cnon` (41), `Cint` (47)
+
+![Annotation Distribution](C:/Users/Administrator/.gemini/antigravity/brain/be6d3688-5906-4154-85b7-64bfe89b2da1/annotation_distribution.png)
+
+### 3. Session Analysis (`session_stats.py`)
+
+Per-session coverage and SFP phase timeline with anomaly detection:
+
+- Mean coverage: **85%**, 6 sessions <50% (all due to untrimmed video after reunion)
+- MUC sessions have longer play phases (~3min), HD sessions ~2min
+- Reference lines at 2/4/6 min marks for quick visual inspection
+
+![Session Analysis](C:/Users/Administrator/.gemini/antigravity/brain/be6d3688-5906-4154-85b7-64bfe89b2da1/session_analysis.png)
+
+### 4. XIACT vs JSON Validation (`validate_xiact_vs_json.py`)
+
+Discovered **8 sessions with conversion errors** — swapped column order in `.xiact` headers caused infant annotations to be dropped during conversion.
+
+### 5. Conversion Fix (`fix_json_from_xiact.py`)
+
+- Fixed all 8 broken sessions by re-parsing `.xiact` with actual header column names
+- Backups saved to `X:\data\Schwan_T3_Clean\_backups\`
+- Re-ran finetune annotation generation for all sessions
+
+Post-fix validation: **87/87 sessions match perfectly, 0 discrepancies**
+
+![Validation Results](C:/Users/Administrator/.gemini/antigravity/brain/be6d3688-5906-4154-85b7-64bfe89b2da1/xiact_vs_json_validation.png)
+
+### 6. Technical Report
+
+Written to [REPORT.md](file:///d:/GitHub/daksitha.withanage.don/gpu_server/REPORT.md) — covers pipeline, ICEP standard, validation, statistics, and next steps.
+
+## Output Files
+
+| Path | Content |
+|------|---------|
+| [REPORT.md](file:///d:/GitHub/daksitha.withanage.don/gpu_server/REPORT.md) | Full technical report |
+| [validate_xiact_vs_json.py](file:///d:/GitHub/daksitha.withanage.don/gpu_server/data_prep/validate_xiact_vs_json.py) | Validation script |
+| [fix_json_from_xiact.py](file:///d:/GitHub/daksitha.withanage.don/gpu_server/data_prep/fix_json_from_xiact.py) | Repair script |
+| `X:\data\Schwan_T3_FineTune\stats\` | All stats, CSVs, JSONs, and visualizations |

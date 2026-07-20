@@ -1,0 +1,36 @@
+{
+  "role_mode": "joint",
+  "include_background": true,
+  "excluded_labels": [],
+  "allowed_labels": {
+    "infant": [
+      "ineg",
+      "ipro",
+      "iwit",
+      "inon",
+      "ineu",
+      "ipos",
+      "islp",
+      "iusc",
+      "bg"
+    ],
+    "caregiver": [
+      "cneg",
+      "cwit",
+      "cint",
+      "chos",
+      "cnon",
+      "cneu",
+      "cpos",
+      "cpvc",
+      "ctch",
+      "bg"
+    ]
+  },
+  "schema_fields": [
+    "infant_code",
+    "caregiver_code",
+    "infant_description",
+    "caregiver_description"
+  ]
+}

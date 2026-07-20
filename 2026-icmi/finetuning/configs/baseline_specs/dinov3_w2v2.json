@@ -1,0 +1,18 @@
+{
+    "id": "dinov3_w2v2",
+    "visual_encoder": "vit_large_patch16_dinov3",
+    "audio_encoder": "facebook/wav2vec2-large-960h",
+    "visual_dim": 1024,
+    "audio_dim": 1024,
+    "temporal_pooling": "mean",
+    "classifier": "logreg",
+    "logreg_C": 1.0,
+    "logreg_class_weight": "balanced",
+    "mlp_hidden_dim": 512,
+    "mlp_dropout": 0.3,
+    "mlp_epochs": 50,
+    "mlp_lr": 0.001,
+    "feature_batch_size": 32,
+    "output_name": "baseline_dinov3_w2v2",
+    "modality_combos": ["video", "audio", "omni"]
+}

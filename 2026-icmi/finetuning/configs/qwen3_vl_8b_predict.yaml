@@ -1,0 +1,29 @@
+### Legacy template. Prefer `python -m swan_ft predict ...` to render machine-specific configs.
+### Fill in the *_PLACEHOLDER values if you use this file manually.
+
+model_name_or_path: Qwen/Qwen3-VL-8B-Instruct
+template: qwen3_vl_nothink
+stage: sft
+
+# LoRA adapter from training
+finetuning_type: lora
+adapter_name_or_path: ADAPTER_PATH_PLACEHOLDER/fold_X
+
+# Prediction mode
+do_train: false
+do_predict: true
+predict_with_generate: true
+
+# Dataset
+eval_dataset: icep_fold_X_val
+dataset_dir: DATASET_DIR_PLACEHOLDER
+cutoff_len: 8192
+
+# Generation
+do_sample: false
+max_new_tokens: 256
+
+# Output
+output_dir: OUTPUT_DIR_PLACEHOLDER/fold_X/predictions
+per_device_eval_batch_size: 1
+bf16: true
