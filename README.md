@@ -12,7 +12,7 @@ Live site (once GitHub Pages is enabled, Settings → Pages → Deploy from bran
 /
 ├── index.html       - SCHWAN project landing page (publication timeline, overview)
 ├── 2026-icmi/        - ICMI '26 publication: project page + full fine-tuning codebase
-│                        (mirrors https://github.com/Daksitha/schwan-finetune)
+│                        (mirrors https://github.com/hcmlab/schwan-icmi2026)
 ├── 2024-icmi/        - ICMI '24 publication: project page linking out to
 │                        https://github.com/Daksitha/SCHWAN-ICEP-R-Automation
 └── LICENSE
@@ -25,7 +25,11 @@ developed copy remains at the linked GitHub repository.
 
 ## Updating
 
-- **This year's page/code** (`2026-icmi/`): edit in the `schwan-finetune` repo's `submission/`
-  folder, then copy the updated contents over `2026-icmi/` here and commit.
+- **This year's code** (`2026-icmi/finetuning/`, `2026-icmi/data-pipeline/`): the canonical,
+  actively developed copy is `github.com/hcmlab/schwan-icmi2026` (public). The private dev repo
+  `schwan-finetune` is where day-to-day work happens; publish-ready snapshots get scrubbed and
+  pushed to `schwan-icmi2026`, then copied over `2026-icmi/` here to keep the Pages site in sync.
+- **This year's page copy** (`2026-icmi/index.html`, `2026-icmi/README.md`): edit directly, or
+  edit in the `schwan-finetune` repo's local `submission/` folder and copy over.
 - **Landing page** (`index.html`): update the publication timeline when a new paper is added,
   following the same `YYYY-venue/` folder convention.
