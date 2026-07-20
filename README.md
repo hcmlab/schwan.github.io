@@ -10,15 +10,15 @@ Live site (once GitHub Pages is enabled, Settings → Pages → Deploy from bran
 
 ```
 /
-├── index.html       — SCHWAN project landing page (publication timeline, overview)
-├── 2026-icmi/        — ICMI '26 publication: project page + full fine-tuning codebase
+├── index.html       - SCHWAN project landing page (publication timeline, overview)
+├── 2026-icmi/        - ICMI '26 publication: project page + full fine-tuning codebase
 │                        (mirrors https://github.com/Daksitha/schwan-finetune)
-├── 2024-icmi/        — ICMI '24 publication: project page linking out to
+├── 2024-icmi/        - ICMI '24 publication: project page linking out to
 │                        https://github.com/Daksitha/SCHWAN-ICEP-R-Automation
 └── LICENSE
 ```
 
-`2024-icmi/` intentionally does not vendor a copy of that repository's code — it links out to
+`2024-icmi/` intentionally does not vendor a copy of that repository's code - it links out to
 keep a single source of truth. `2026-icmi/` contains a full, secret-scrubbed snapshot of the
 ICMI '26 codebase so it is directly browsable on the live Pages site; the canonical, actively
 developed copy remains at the linked GitHub repository.
